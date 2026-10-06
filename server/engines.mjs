@@ -138,7 +138,7 @@ async function renderRevideo(dir,brief,{fps,output,signal}){
     const limit=Math.max(120000,brief.durationSeconds*fps*1500);const timer=setTimeout(()=>{child.kill();reject(new Error('Revideo no terminó en '+Math.round(limit/1000)+' s: suele ser un error dentro de la escena (por ejemplo, un import que no existe o una excepción en el generador). Revisa src/scene.tsx.'));},limit);const abort=()=>{child.kill();reject(new Error('Render cancelado.'));};signal?.addEventListener('abort',abort,{once:true});
     child.on('exit',code=>{clearTimeout(timer);signal?.removeEventListener('abort',abort);resolve({code,out:out.replace(/\u0000/g,'')});});});
   await rm(path.join(dir,'src','project-check.ts'),{force:true});
-  const file=path.join(outDir,'scene.mp4');if(result.code!==0||!await exists(file)){const json=/\{"ok":false,"error":"([^"]*)/.exec(result.out)?.[1];throw new Error('Revideo no pudo renderizar la escena: '+(json||result.out.replace(/\s+/g,' ').slice(-1500)));}
+  const file=path.join(outDir,'scene.mp4');if(result.code!==0||!await exists(file)){if(process.env.CI)console.error('[revideo]',result.out.slice(-6000));const json=/\{"ok":false,"error":"([^"]*)/.exec(result.out)?.[1];throw new Error('Revideo no pudo renderizar la escena: '+(json||result.out.replace(/\s+/g,' ').slice(-1500)));}
   await copyFile(file,output);return output;
 }
 

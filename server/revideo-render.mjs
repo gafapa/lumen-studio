@@ -10,7 +10,7 @@ const {renderVideo}=await import('@revideo/renderer');
 // La primera vez que se abre una escena, Vite empaqueta las dependencias y recarga la página a mitad del render
 // ("Navigating frame was detached"): se repite una vez, ya con la caché creada.
 const reloaded=error=>/frame was detached|Execution context was destroyed|Target closed/i.test(String(error?.message||error));
-const render=()=>renderVideo({projectFile:options.projectFile||'./src/project.ts',settings:{outFile:options.outFile||'scene.mp4',outDir:options.outDir||'./.lumen/render',logProgress:false,workers:1,puppeteer:{executablePath:options.executablePath,args:['--no-sandbox']},
+const render=()=>renderVideo({projectFile:options.projectFile||'./src/project.ts',settings:{outFile:options.outFile||'scene.mp4',outDir:options.outDir||'./.lumen/render',logProgress:false,workers:1,puppeteer:{executablePath:options.executablePath,dumpio:Boolean(process.env.CI),args:['--no-sandbox','--disable-gpu','--disable-dev-shm-usage']},
     viteConfig:{logLevel:'error',cacheDir:'./.lumen/vite',resolve:{alias:[{find:/^@revideo\/([^/]+)(\/.*)?$/,replacement:modules+'/@revideo/$1$2'}]},server:{fs:{strict:false}}}}});
 try{
   let file;try{file=await render();}catch(error){if(!reloaded(error))throw error;file=await render();}
