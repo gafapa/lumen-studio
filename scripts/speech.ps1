@@ -20,6 +20,8 @@ public class LumenSpeech {
 $synthesizer = [Speech.Synthesis.SpeechSynthesizer]::new()
 try {
     $voice = $synthesizer.GetInstalledVoices() | Where-Object { $_.Enabled -and $_.VoiceInfo.Culture.Name.StartsWith('es') } | Select-Object -First 1
+    # Solo para integración continua: los equipos de GitHub Actions no traen voces en español.
+    if (-not $voice -and $env:LUMEN_SPEECH_ANY_VOICE -eq '1') { $voice = $synthesizer.GetInstalledVoices() | Where-Object { $_.Enabled } | Select-Object -First 1 }
     if (-not $voice) { throw 'No hay una voz en espanol instalada en Windows.' }
     $voiceName = $voice.VoiceInfo.Name
     if ($request.voice) { $voiceName = [string]$request.voice }

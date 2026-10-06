@@ -30,7 +30,7 @@ jobs:
       - name: Skills oficiales de HyperFrames y Remotion
         run: node scripts/update-vendor-skills.mjs
       - name: Navegador de Remotion
-        run: npx remotion browser ensure
+        run: node -e "import('@remotion/renderer').then(r=>r.ensureBrowser())"
       - name: Node para el paquete
         shell: pwsh
         run: |
