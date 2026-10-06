@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import http from 'node:http';
+import path from 'node:path';
+import {readFile} from 'node:fs/promises';
+import {Store} from '../server/store.mjs';
+import {Harness} from '../server/harness.mjs';
+import {produceScene,renderProject,closeMedia} from '../server/media.mjs';
+import {reviewMedia} from '../server/production.mjs';
+const root=path.resolve(`.data/verification/renderers-${Date.now()}`),store=new Store(root),harness=new Harness(store,{}),signal=new AbortController().signal;
+const server=http.createServer(async(req,res)=>{try{const file=path.resolve(root,decodeURIComponent(new URL(req.url,'http://localhost').pathname).slice(1));assert.ok(file.startsWith(root+path.sep));const buffer=await readFile(file);const match=/bytes=(\d+)-(\d*)/.exec(req.headers.range||'');const start=match?+match[1]:0,end=match&&match[2]?Math.min(+match[2],buffer.length-1):buffer.length-1;res.setHeader('Access-Control-Allow-Origin','*');res.setHeader('Content-Type',file.endsWith('.wav')?'audio/wav':file.endsWith('.svg')?'image/svg+xml':file.endsWith('.png')?'image/png':'video/mp4');if(match){res.statusCode=206;res.setHeader('Content-Range',`bytes ${start}-${end}/${buffer.length}`);}res.setHeader('Content-Length',end-start+1);res.end(buffer.subarray(start,end+1));}catch(error){res.statusCode=404;res.end(error.message);}});
+await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+// Media addresses retain the standard route, translated by this private file server.
+server.removeAllListeners('request');server.on('request',async(req,res)=>{try{const parts=new URL(req.url,'http://localhost').pathname.split('/');const file=path.resolve(root,'projects',parts[3],parts.slice(5).map(decodeURIComponent).join('/'));assert.ok(file.startsWith(root+path.sep));const buffer=await readFile(file);const match=/bytes=(\d+)-(\d*)/.exec(req.headers.range||'');const start=match?+match[1]:0,end=match&&match[2]?Math.min(+match[2],buffer.length-1):buffer.length-1;res.setHeader('Access-Control-Allow-Origin','*');res.setHeader('Content-Type',file.endsWith('.wav')?'audio/wav':file.endsWith('.svg')?'image/svg+xml':file.endsWith('.png')?'image/png':'video/mp4');if(match){res.statusCode=206;res.setHeader('Content-Range',`bytes ${start}-${end}/${buffer.length}`);}res.setHeader('Content-Length',end-start+1);res.end(req.method==='HEAD'?undefined:buffer.subarray(start,end+1));}catch(error){res.statusCode=404;res.end(error.message);}});
+process.env.LUMEN_SERVER_URL=`http://127.0.0.1:${server.address().port}`;
+try{for(const renderer of process.argv.includes('--hyperframes')?['hyperframes']:['remotion','hyperframes']){
+  const project=await harness.create({prompt:'Prueba real de motores de render y subtítulos.',duration:15,runtime:'demo',architecture:'single',context:'minimal',style:'editorial',concurrency:1,desktop:false,sources:[],renderer});
+  project.storyboard={title:'Dos motores, un contrato',scenes:[1,2].map(index=>({id:`scene-${index}`,title:index===1?'Una idea clara':'Un vídeo que enseña',duration:7.5,narration:index===1?'Cada escena explica una idea.':'La narración acompaña al contenido.',type:'diagram',eyebrow:'LUMEN',points:['Contenido','Narración','Vídeo'],sourceIds:[]}))};project.tasks=[];
+  for(const scene of project.storyboard.scenes){const output=await produceScene(project,scene.id,harness.folder(project.id),signal);assert.ok(output.words.length>0);assert.equal(output.captionMode,'speech-events');project.tasks.push({id:`media-${scene.id}`,kind:'scene',sceneId:scene.id,status:'completed',output});}
+  project.render=await renderProject(project,harness.folder(project.id),signal,p=>console.log(renderer,p));const review=await reviewMedia(project,harness.folder(project.id),signal);assert.equal(review.approved,true);assert.equal(review.frames.length,2);store.save(project);await harness.export(project.id);
+  const repeat=await renderProject(project,harness.folder(project.id),signal);assert.equal(repeat.reusedSegments,2);console.log('PASS',{renderer,project:project.id,size:project.render.size,seconds:project.render.duration,reused:repeat.reusedSegments,frames:review.frames.length});
+}}finally{await closeMedia();await new Promise(resolve=>server.close(resolve));store.close();}

@@ -1,0 +1,2076 @@
+{
+ "source": "Catálogo oficial de HyperFrames (CLI 0.8.113), traducido en octubre de 2026",
+ "items": {
+  "ai-chat-reveal": {
+   "title": "Revelado de chat con IA",
+   "description": "Se escribe una pregunta en un teclado que sube, se envía y una IA responde transmitiendo su respuesta palabra a palabra con un ritmo de tokens medido (punto de «pensando», ráfagas irregulares, lista con viñetas) antes de que la app corte a una tarjeta de cierre de marca"
+  },
+  "app-showcase": {
+   "title": "Escaparate de app",
+   "description": "Escaparate de producto de una app de fitness con tres pantallas de smartphone flotantes"
+  },
+  "apple-money-count": {
+   "title": "Contador de dinero estilo Apple",
+   "description": "Contador financiero estilo Apple que cuenta de 0 $ a 10 000 $, parpadea en verde y lanza una ráfaga de iconos de dinero con sonido."
+  },
+  "bar-chart-race": {
+   "title": "Carrera de barras",
+   "description": "Barras ordenadas que crecen y se adelantan entre sí a medida que avanza una serie temporal, con el eje reescalándose según suben los valores y el acento pasando a quien lidera"
+  },
+  "beat-freeze-cut": {
+   "title": "Corte con congelado al ritmo",
+   "description": "Secuencia de rampa de velocidad al compás, golpe de fotograma congelado y corte seco para promos y montajes guiados por la música."
+  },
+  "blue-sweater-intro-video": {
+   "title": "Vídeo de intro Blue Sweater",
+   "description": "Cálida secuencia de intro de creador de IA que desemboca en una tarjeta de seguimiento de X para @_blue_sweater_."
+  },
+  "camcorder-hud": {
+   "title": "HUD de videocámara",
+   "description": "Superposición adaptable con REC, batería, marcador de fecha editable y contador dirigido por la línea de tiempo para tratamientos de cámara de creador y videocámara"
+  },
+  "camera-dolly-zoom": {
+   "title": "Zoom dolly (efecto Vértigo)",
+   "description": "La cámara se acerca o se aleja del sujeto mientras el campo de visión cambia en sentido contrario, de modo que el sujeto mantiene su tamaño en el encuadre mientras el fondo se contrae tras él o se precipita hacia delante. La distancia focal se calcula a partir de la distancia del dolly en cada fotograma según d * tan(FOV/2) = const, no se anima con fotogramas clave aparte. Requiere profundidad: el sujeto está en el plano z = 0 y el contenido de detrás debe estar en capas o ser 3D de verdad (translateZ en dos o más profundidades distintas); un elemento plano no gana nada con este movimiento."
+  },
+  "canopy-part-title": {
+   "title": "Título entre el follaje",
+   "description": "Las hojas barren el encuadre y se abren para revelar el titular."
+  },
+  "carousel-circle-1": {
+   "title": "Carrusel circular 1",
+   "description": "Tarjetas de imagen recorren un círculo con un gradiente de tamaño según el ángulo de profundidad, avanzando en vaivenes rápido-lento-rápido (estilo circular 1); 12 huecos de imagen."
+  },
+  "carousel-circle-2": {
+   "title": "Carrusel circular 2",
+   "description": "Tarjetas de imagen recorren un círculo con un gradiente de tamaño según el ángulo de profundidad, avanzando en vaivenes rápido-lento-rápido (estilo circular 2); 12 huecos de imagen."
+  },
+  "carousel-circle-3": {
+   "title": "Carrusel circular 3",
+   "description": "Tarjetas de imagen recorren un círculo con un gradiente de tamaño según el ángulo de profundidad, avanzando en vaivenes rápido-lento-rápido (estilo circular 3); 12 huecos de imagen."
+  },
+  "carousel-circle-4": {
+   "title": "Carrusel circular 4",
+   "description": "Tarjetas de imagen recorren un círculo con un gradiente de tamaño según el ángulo de profundidad, avanzando en vaivenes rápido-lento-rápido (estilo circular 4); 12 huecos de imagen."
+  },
+  "carousel-circle-5": {
+   "title": "Carrusel circular 5",
+   "description": "Tarjetas de imagen recorren un círculo con un gradiente de tamaño según el ángulo de profundidad, avanzando en vaivenes rápido-lento-rápido (estilo circular 5); 12 huecos de imagen."
+  },
+  "carousel-orbit-1": {
+   "title": "Carrusel orbital 1",
+   "description": "Tarjetas de imagen sobre una esfera de Fibonacci 3D en rotación, orientadas siempre hacia la cámara y con tamaño según la distancia a ella (estilo orbital 1); 24 huecos de imagen."
+  },
+  "carousel-orbit-2": {
+   "title": "Carrusel orbital 2",
+   "description": "Tarjetas de imagen sobre una esfera de Fibonacci 3D en rotación, orientadas siempre hacia la cámara y con tamaño según la distancia a ella (estilo orbital 2); 24 huecos de imagen."
+  },
+  "carousel-orbit-3": {
+   "title": "Carrusel orbital 3",
+   "description": "Tarjetas de imagen sobre una esfera de Fibonacci 3D en rotación, orientadas siempre hacia la cámara y con tamaño según la distancia a ella (estilo orbital 3); 24 huecos de imagen."
+  },
+  "carousel-orbit-4": {
+   "title": "Carrusel orbital 4",
+   "description": "Tarjetas de imagen sobre una esfera de Fibonacci 3D en rotación, orientadas siempre hacia la cámara y con tamaño según la distancia a ella (estilo orbital 4); 24 huecos de imagen."
+  },
+  "carousel-orbit-5": {
+   "title": "Carrusel orbital 5",
+   "description": "Tarjetas de imagen sobre una esfera de Fibonacci 3D en rotación, orientadas siempre hacia la cámara y con tamaño según la distancia a ella (estilo orbital 5); 24 huecos de imagen."
+  },
+  "carousel-path-1": {
+   "title": "Carrusel por trayectoria 1",
+   "description": "Tarjetas de imagen recorren una trayectoria bézier abierta (arco, V, diagonal, onda, curva en S) con escala por profundidad y rotación tangente (estilo trayectoria 1); 24 huecos de imagen."
+  },
+  "carousel-path-2": {
+   "title": "Carrusel por trayectoria 2",
+   "description": "Tarjetas de imagen recorren una trayectoria bézier abierta (arco, V, diagonal, onda, curva en S) con escala por profundidad y rotación tangente (estilo trayectoria 2); 12 huecos de imagen."
+  },
+  "carousel-path-3": {
+   "title": "Carrusel por trayectoria 3",
+   "description": "Tarjetas de imagen recorren una trayectoria bézier abierta (arco, V, diagonal, onda, curva en S) con escala por profundidad y rotación tangente (estilo trayectoria 3); 12 huecos de imagen."
+  },
+  "carousel-path-4": {
+   "title": "Carrusel por trayectoria 4",
+   "description": "Tarjetas de imagen recorren una trayectoria bézier abierta (arco, V, diagonal, onda, curva en S) con escala por profundidad y rotación tangente (estilo trayectoria 4); 24 huecos de imagen."
+  },
+  "carousel-path-5": {
+   "title": "Carrusel por trayectoria 5",
+   "description": "Tarjetas de imagen recorren una trayectoria bézier abierta (arco, V, diagonal, onda, curva en S) con escala por profundidad y rotación tangente (estilo trayectoria 5); 24 huecos de imagen."
+  },
+  "carousel-text-circle-1": {
+   "title": "Carrusel texto + círculo 1",
+   "description": "Un titular se revela con máscara palabra a palabra mientras un carrusel circular converge desde fuera de encuadre y atraviesa la línea, colapsa al centro y corta en seco a una segunda línea que llega a 1,4× (estilo circular 1)."
+  },
+  "carousel-text-circle-2": {
+   "title": "Carrusel texto + círculo 2",
+   "description": "Un titular se revela con máscara palabra a palabra mientras un carrusel circular converge desde fuera de encuadre y atraviesa la línea, colapsa al centro y corta en seco a una segunda línea que llega a 1,4× (estilo circular 2)."
+  },
+  "carousel-text-circle-3": {
+   "title": "Carrusel texto + círculo 3",
+   "description": "Un titular se revela con máscara palabra a palabra mientras un carrusel circular converge desde fuera de encuadre y atraviesa la línea, colapsa al centro y corta en seco a una segunda línea que llega a 1,4× (estilo circular 3)."
+  },
+  "carousel-text-circle-4": {
+   "title": "Carrusel texto + círculo 4",
+   "description": "Un titular se revela con máscara palabra a palabra mientras un carrusel circular converge desde fuera de encuadre y atraviesa la línea, colapsa al centro y corta en seco a una segunda línea que llega a 1,4× (estilo circular 4)."
+  },
+  "carousel-text-circle-5": {
+   "title": "Carrusel texto + círculo 5",
+   "description": "Un titular se revela con máscara palabra a palabra mientras un carrusel circular converge desde fuera de encuadre y atraviesa la línea, colapsa al centro y corta en seco a una segunda línea que llega a 1,4× (estilo circular 5)."
+  },
+  "carousel-vision-1": {
+   "title": "Carrusel Vision 1",
+   "description": "Un anillo de tarjetas de imagen grandes inclinadas en fila bajo una cámara 3D, cada una girando hacia el centro (estilo Vision 1); 12 huecos de imagen."
+  },
+  "carousel-vision-2": {
+   "title": "Carrusel Vision 2",
+   "description": "Un anillo de tarjetas de imagen grandes inclinadas en fila bajo una cámara 3D, cada una girando hacia el centro (estilo Vision 2); 12 huecos de imagen."
+  },
+  "carousel-vision-3": {
+   "title": "Carrusel Vision 3",
+   "description": "Un anillo de tarjetas de imagen grandes inclinadas en fila bajo una cámara 3D, cada una girando hacia el centro (estilo Vision 3); 12 huecos de imagen."
+  },
+  "carousel-vision-4": {
+   "title": "Carrusel Vision 4",
+   "description": "Un anillo de tarjetas de imagen grandes inclinadas en fila bajo una cámara 3D, cada una girando hacia el centro (estilo Vision 4); 12 huecos de imagen."
+  },
+  "carousel-vision-5": {
+   "title": "Carrusel Vision 5",
+   "description": "Un anillo de tarjetas de imagen grandes inclinadas en fila bajo una cámara 3D, cada una girando hacia el centro (estilo Vision 5); 12 huecos de imagen."
+  },
+  "chatgpt-exchange": {
+   "title": "Intercambio con ChatGPT",
+   "description": "Un intercambio vertical al estilo ChatGPT escribe y envía un prompt, transmite una respuesta, monta una tabla comparativa y vuelve a desplazarse por el resultado"
+  },
+  "chromatic-radial-split": {
+   "title": "División radial cromática",
+   "description": "Transición con shader de división radial con aberración cromática"
+  },
+  "cinematic-zoom": {
+   "title": "Zoom cinematográfico",
+   "description": "Transición con shader de zoom dramático con desenfoque"
+  },
+  "claude-exchange": {
+   "title": "Intercambio con Claude",
+   "description": "Un intercambio vertical al estilo Claude escribe un prompt, recorre pasos de búsqueda y razonamiento y luego transmite una respuesta detallada con citas y acciones"
+  },
+  "code-3d-extrude": {
+   "title": "Código 3D extruido",
+   "description": "Código con resaltado de sintaxis sobre una losa 3D biselada e iluminada que rota por el espacio real y se detiene en una posición legible: profundidad e iluminación WebGL reales, no una transformación 2D."
+  },
+  "code-diff": {
+   "title": "Diff de código",
+   "description": "Una edición mostrada como diff de colores: las líneas eliminadas colapsan en rojo y las añadidas se expanden en verde."
+  },
+  "code-highlight": {
+   "title": "Barrido de resaltado de código",
+   "description": "Una banda de resaltado barre una línea objetivo mientras el contexto circundante se atenúa; dirige la mirada a una sola línea."
+  },
+  "code-morph": {
+   "title": "Transformación de código",
+   "description": "Un fragmento se transforma en otro: los tokens se deslizan entre posiciones, los que sobran se desvanecen y los nuevos aparecen. Shiki Magic Move reimpulsado como una línea de tiempo de GSAP en pausa."
+  },
+  "code-particle-assemble": {
+   "title": "Ensamblado de código con partículas",
+   "description": "Miles de puntos de GPU se dispersan por el espacio y vuelan hasta los píxeles exactos de los glifos del código, resolviéndose en texto legible con sintaxis resaltada: un sistema de partículas, no una interpolación de tokens."
+  },
+  "code-scroll": {
+   "title": "Desplazamiento de código a línea",
+   "description": "La cámara desplaza un archivo largo para llevar una línea objetivo al centro y la ilumina con un foco; pensado para recorrer módulos reales."
+  },
+  "code-shader-dissolve": {
+   "title": "Disolución de código con shader",
+   "description": "El código se compila hasta existir: un fragment shader de GPU lo resuelve a partir de ruido con semilla, con un frente de disolución cromático y brillo en los bordes, y después se mantiene nítido."
+  },
+  "code-slice-hero": {
+   "title": "Titular de código en cortes",
+   "description": "Una superficie de titular en mosaico se voltea celda a celda bajo un campo de profundidad en barrido para revelar el titular trasero."
+  },
+  "code-snippet-apple-terminal-pro": {
+   "title": "Fragmento de código - Apple Terminal Pro",
+   "description": "Perfil Pro de Apple Terminal: fondo negro con texto gris y cursor verde lima, animación de escritura carácter a carácter de una sesión de shell."
+  },
+  "code-snippet-dark-2026": {
+   "title": "Fragmento de código - Dark 2026",
+   "description": "Área de trabajo de VS Code con animación de escritura carácter a carácter en el tema Dark 2026. Interfaz completa del editor con barra de actividad, barra lateral, pestañas, terminal y barra de estado."
+  },
+  "code-snippet-dark-modern": {
+   "title": "Fragmento de código - Dark Modern",
+   "description": "Área de trabajo de VS Code con animación de escritura carácter a carácter en el tema Dark Modern. Interfaz completa del editor con barra de actividad, barra lateral, pestañas, terminal y barra de estado."
+  },
+  "code-typing": {
+   "title": "Escritura de código",
+   "description": "Revelado de escritura por tokens en flujo con un cursor que sigue el frente: determinista, sin animación CSS."
+  },
+  "cosmic-orb": {
+   "title": "Orbe cósmico",
+   "description": "Un planeta-pompa de jabón iridiscente: una esfera que gira lentamente, hecha de bandas de nebulosa, vetas de polvo y estrellas centelleantes, envuelta en un limbo de cristal refractante con aberración cromática en el borde."
+  },
+  "cross-warp-morph": {
+   "title": "Morfado con deformación cruzada",
+   "description": "Transición con shader de morfado con deformación cruzada"
+  },
+  "cuboid-carousel": {
+   "title": "Carrusel de cuboides",
+   "description": "Una cadena de cuboides biselados avanza sobre una onda viajera como carrusel de contenido."
+  },
+  "data-chart": {
+   "title": "Gráfico de datos",
+   "description": "Gráfico animado de barras y líneas con revelado escalonado, tipografía al estilo NYT y etiquetas de valor"
+  },
+  "domain-warp-dissolve": {
+   "title": "Disolución con deformación de dominio",
+   "description": "Transición con shader de deformación de dominio con ruido fractal"
+  },
+  "editorial-flash-overlay": {
+   "title": "Superposición de destello editorial",
+   "description": "Capas de luz finitas, neutras y cálidas para un corte con flash de cámara o un revelado social que admita búsqueda sin fallos"
+  },
+  "flash-through-white": {
+   "title": "Destello a través del blanco",
+   "description": "Transición con shader de fundido cruzado con destello blanco"
+  },
+  "flowchart": {
+   "title": "Diagrama de flujo",
+   "description": "Árbol de decisión animado con conectores SVG, nodos de notas adhesivas, interacción con cursor y corrección al escribir"
+  },
+  "flowchart-vertical": {
+   "title": "Diagrama de flujo vertical",
+   "description": "Árbol de decisión animado en vertical con conectores SVG, nodos de notas adhesivas, interacción con cursor y corrección al escribir"
+  },
+  "freeze-frame-dressing": {
+   "title": "Ambientación de fotograma congelado",
+   "description": "Papel, cinta y destello dirigidos por la línea de tiempo para un fotograma congelado o un sujeto sin fondo"
+  },
+  "frost-sequence-camera-orbit": {
+   "title": "Órbita de cámara en secuencia de escarcha",
+   "description": "Una cámara en órbita sigue un logotipo de hielo mientras se rompe, se recompone en dos momentos de texto y se desvanece."
+  },
+  "gallery-tunnel": {
+   "title": "Túnel de galería",
+   "description": "Un pasillo infinito de paneles: un túnel cuadrado que se aleja hacia un punto de fuga, con suelo, techo y paredes revestidos de losas de color saturado e imágenes aportadas por quien llama, que crecen hacia la cámara y salen pasando junto a ti, mientras el extremo lejano se disuelve en niebla."
+  },
+  "glass-shard-title": {
+   "title": "Título de esquirlas de cristal",
+   "description": "Esquirlas de cristal entran volando entre la niebla y se encajan hasta formar el titular."
+  },
+  "glitch": {
+   "title": "Glitch",
+   "description": "Transición con shader con artefactos de glitch digital"
+  },
+  "gravitational-lens": {
+   "title": "Lente gravitacional",
+   "description": "Transición con shader con distorsión de lente gravitacional"
+  },
+  "halftone-field": {
+   "title": "Campo de semitono",
+   "description": "Un campo de luz de semitono a sangre: una cuadrícula de puntos cuyo tamaño y color siguen un campo lento y fluido de ruido simplex, de modo que amplias bandas de luz barren un encuadre casi negro como un gigantesco muro LED que muestra un plasma. Pensado para funcionar bajo texto."
+  },
+  "heygen-avatar-promo-card": {
+   "title": "Tarjeta promocional de avatar HeyGen",
+   "description": "Una tarjeta vertical de oferta de HeyGen combina un mosaico de avatares en movimiento con tipografía promocional contundente y un destacado de marca"
+  },
+  "hw-frame": {
+   "title": "Marco dibujado a mano",
+   "description": "Contenido multimedia en un borde dibujado a mano con garabatos en las esquinas y un subtítulo manuscrito; el conjunto se inclina ligeramente y vibra (imágenes dentro del bloque; el metraje en vivo se mantiene en el host)"
+  },
+  "hw-path-text": {
+   "title": "Texto a lo largo de una trayectoria",
+   "description": "Escritura manuscrita que fluye a lo largo de cualquier trayectoria SVG con revelado carácter a carácter; la trayectoria es la única entrada de geometría"
+  },
+  "hw-pipeline": {
+   "title": "Diagrama de flujo dibujado a mano",
+   "description": "Cajas onduladas con etiquetas manuscritas unidas por conectores curvos, que se dibujan en secuencia a partir de una lista de nodos"
+  },
+  "hw-scribble-transition": {
+   "title": "Transición de garabatos",
+   "description": "Transición superpuesta: bandas de garabatos se acumulan hasta cubrir el encuadre con un respaldo sólido, el host corta por debajo y los garabatos se despejan"
+  },
+  "hw-text-cloud": {
+   "title": "Bocadillo",
+   "description": "Bocadillo dibujado a mano con cola posicionable: el contorno se dibuja, el relleno de papel aparece en fundido y el texto manuscrito se escribe carácter a carácter; vibra"
+  },
+  "hw-title": {
+   "title": "Título manuscrito",
+   "description": "Texto de portada manuscrito con un barrido de resaltado palabra a palabra dirigido por un escalar y un subrayado ondulado con semilla ajustado al texto; vibra"
+  },
+  "hw-write-title": {
+   "title": "Título manuscrito con trazado progresivo",
+   "description": "Trazado progresivo de glifos real: formas de letra Caveat rellenas, reveladas por trazos de línea central precalculados por glifo y dibujados en el orden de trazo real con una curva de aceleración de velocidad de pluma adaptada a la curvatura (rápida en rectas, lenta en curvas, con levantamientos de pluma entre trazos); subrayado ondulado opcional; vibra"
+  },
+  "instagram-follow": {
+   "title": "Seguir en Instagram",
+   "description": "Superposición animada de seguimiento de Instagram con tarjeta de perfil y botón de seguir"
+  },
+  "ios26-liquid-glass": {
+   "title": "Pantalla de inicio iOS 26 Liquid Glass",
+   "description": "iPhone 3D con una pantalla de inicio normal de iOS 26, iconos de apps de cristal líquido, fondo de pantalla con shader, dock y notificaciones de cristal fluido que caen desde la zona de estado sobre un modelo de dispositivo GLTF."
+  },
+  "light-leak": {
+   "title": "Destello de luz",
+   "description": "Transición con shader con superposición de destello de luz cinematográfico"
+  },
+  "liquid-glass-notification": {
+   "title": "Notificación de cristal líquido",
+   "description": "Tarjetas de notificación de cristal esmerilado flotando sobre un fondo de shader de aurora"
+  },
+  "liquid-glass-widgets": {
+   "title": "Widgets de cristal líquido",
+   "description": "Tarjetas de estadísticas de cristal esmerilado, panel de escaparate y chips en forma de píldora sobre un fondo de shader de aurora"
+  },
+  "logo-outro": {
+   "title": "Cierre con logotipo",
+   "description": "Revelado cinematográfico de logotipo con ensamblado pieza a pieza, resplandor de brillo, fundido de entrada del eslogan y píldora de URL"
+  },
+  "lottie-character-walk": {
+   "title": "Paseo de personaje Lottie",
+   "description": "Un personaje plano articulado entra andando con los pies bien plantados, se detiene y señala una tarjeta; la interpretación del cuerpo es un archivo Lottie y el escenario es GSAP."
+  },
+  "lower-third-bild": {
+   "title": "Rótulo inferior - Estilo BILD",
+   "description": "Rótulo inferior de estilo informativo con cajas de texto ajustadas: barra blanca de titular con sombra roja, subtítulo rojo con sombra blanca."
+  },
+  "lt-accent-underline": {
+   "title": "Rótulo inferior - Subrayado de acento",
+   "description": "Rótulo inferior sin tarjeta para superponer sobre metraje: el nombre sube, una línea de acento se dibuja de izquierda a derecha y el cargo aparece en fundido; con sombra de texto para legibilidad"
+  },
+  "lt-bold-block": {
+   "title": "Rótulo inferior - Bloque contundente",
+   "description": "Rótulo inferior enérgico para pódcast: un bloque oscuro sólido entra con barrido, el nombre en mayúsculas se estampa hacia arriba y la etiqueta de acento salta"
+  },
+  "lt-clean-bar": {
+   "title": "Rótulo inferior - Barra limpia",
+   "description": "Rótulo inferior minimalista de tarjeta blanca para pódcast y entrevistas: pestaña de acento, nombre + cargo, entrada con barrido de recorte"
+  },
+  "lt-color-block": {
+   "title": "Rótulo inferior - Bloque de color",
+   "description": "Rótulo inferior enérgico: un bloque contundente de color de acento se desliza con sobreimpulso, nombre condensado + cargo en monoespaciada"
+  },
+  "lt-dark-card": {
+   "title": "Rótulo inferior - Tarjeta oscura",
+   "description": "Rótulo inferior de tarjeta color carbón para metraje luminoso: nombre, subrayado de acento dibujado, cargo; entrada deslizándose hacia arriba"
+  },
+  "lt-kicker-name": {
+   "title": "Rótulo inferior - Nombre con antetítulo",
+   "description": "Rótulo inferior sin tarjeta con una etiqueta de acento a modo de antetítulo, nombre en negrita gruesa y una línea base dibujada; para metraje"
+  },
+  "lt-mask-reveal": {
+   "title": "Rótulo inferior - Revelado con máscara",
+   "description": "Rótulo inferior sin tarjeta: un barrido de acento cruza y revela con clip-path un nombre en negrita gruesa, el cargo aparece subiendo en fundido; para metraje"
+  },
+  "lt-neon-border": {
+   "title": "Borde de neón",
+   "description": "Dos arcos de luz recorren el borde de un panel redondeado y saltan de esquina a esquina, dejando un suave resplandor de tres capas. Un rótulo inferior para un nombre y un cargo."
+  },
+  "lt-side-rule": {
+   "title": "Rótulo inferior - Línea lateral",
+   "description": "Rótulo inferior sin tarjeta con una barra de acento vertical; nombre de display condensado + cargo en monoespaciada, con sombra de texto para metraje"
+  },
+  "lt-soft-pill": {
+   "title": "Rótulo inferior - Píldora suave",
+   "description": "Rótulo inferior en píldora blanca redondeada para pódcast y entrevistas: punto de estado, nombre + cargo, entrada con escalado en rebote"
+  },
+  "lt-stack-bars": {
+   "title": "Rótulo inferior - Barras apiladas",
+   "description": "Dos barras apiladas: una barra oscura de nombre entra con barrido desde la izquierda y una barra de acento con el cargo entra con barrido desde la derecha"
+  },
+  "macos-notification": {
+   "title": "Notificación de macOS",
+   "description": "Banner de notificación animado al estilo macOS con icono de app y mensaje"
+  },
+  "macos-tahoe-liquid-glass": {
+   "title": "Escritorio macOS Tahoe Liquid Glass",
+   "description": "MacBook 3D con un escritorio al estilo macOS Tahoe, barra de menús de cristal, ventana del Finder, dock y un movimiento de cámara cinematográfico alrededor del dispositivo."
+  },
+  "message-thread-reveal": {
+   "title": "Revelado de hilo de mensajes",
+   "description": "Una conversación de texto completa se desarrolla en un teléfono (burbujas que aparecen, indicadores de escritura, una tarjeta de enlace compartido, emojis, confirmaciones de entrega) con todo el hilo desplazándose hacia arriba tiempo a tiempo hasta que aterriza una tarjeta de cierre. La plantilla completa de anuncio de chat, medida mensaje a mensaje"
+  },
+  "mk-background": {
+   "title": "Fondo degradado minimalista",
+   "description": "Fondo procedural de degradado de manchas suaves en un estilo de presentación minimalista: dos manchas radiales que derivan sobre un color base, con una máscara de barra de tarjeta redondeada animable y modo opcional de cristal esmerilado"
+  },
+  "mk-callout-highlight": {
+   "title": "Resaltado palabra a palabra",
+   "description": "Una frase cuyo énfasis palabra a palabra se controla con un único escalar: anímalo para sincronizar el resaltado con una locución"
+  },
+  "mk-clone-wall-transition": {
+   "title": "Transición de muro de texto clonado",
+   "description": "Transición superpuesta: un muro de palabras en mosaico cubre el encuadre, se invierte mediante mezcla por diferencia y se despeja; corta en seco el contenido de debajo mientras está cubierto"
+  },
+  "mk-line-graph": {
+   "title": "Gráfico de líneas minimalista",
+   "description": "Una o dos series SVG se dibujan con puntos que aparecen y etiquetas de valor que acompañan al frente del trazo; eje base atenuado, etiquetas del eje x y leyenda con puntos de color"
+  },
+  "mk-placeholder-grid": {
+   "title": "Cuadrícula de medios redondeados",
+   "description": "Cuadrícula de N medios con esquinas redondeadas (2, 3, 4, 3x2, héroe más dos): encuadre con escala interior por celda, entrada escalonada en caja y asentamiento lento"
+  },
+  "mk-progress-stat": {
+   "title": "Tarjeta de estadística con cuenta ascendente",
+   "description": "Estadística con cifra grande y cuenta ascendente, etiqueta, fina barra de progreso que se llena hasta valor/máximo y subtítulo; esquemas claro y oscuro"
+  },
+  "mk-specs-list": {
+   "title": "Lista de especificaciones",
+   "description": "Lista de especificaciones o rasgos alineada a la izquierda sobre metraje o una pizarra: las filas entran escalonadas con un barrido de subrayado de acento; esquemas claro y oscuro"
+  },
+  "news-ticker": {
+   "title": "Teletipo de noticias",
+   "description": "Teletipo premium de estilo informativo en rótulo inferior con etiqueta de directo, cinta de titulares y noticias desplazándose."
+  },
+  "north-korea-locked-down": {
+   "title": "Corea del Norte blindada",
+   "description": "Zoom de mapa realista sobre Corea del Norte con un círculo rojo garabateado, una etiqueta emergente de blindaje y un tinte editorial rojizo."
+  },
+  "notes-reveal": {
+   "title": "Revelado de notas",
+   "description": "Una nota personal se escribe carácter a carácter en una app de notas, con el cursor siguiendo cada letra y la página desplazándose hacia arriba con curvas de asentamiento medidas a medida que llega cada línea; luego corta a una tarjeta de papel con letra a mano, con un titular de rotulador y una lista de tareas marcadas"
+  },
+  "notification-cascade": {
+   "title": "Cascada de notificaciones",
+   "description": "Las notificaciones del teléfono van llegando una tras otra y se apilan por la pantalla, cada banner empujando la pila hacia abajo al llegar, antes de que todo el montón se eleve y desaparezca en una tarjeta de cierre"
+  },
+  "nyc-paris-flight": {
+   "title": "Vuelo Nueva York-París",
+   "description": "Animación de mapa realista al estilo Apple con un avión volando de Nueva York a París, círculo marcador, aterrizaje con rebote y efectos de sonido."
+  },
+  "orbit-card": {
+   "title": "Tarjeta en órbita",
+   "description": "Una única tarjeta de característica orbita una esfera de puntos con movimiento de cámara de Blender aprobado."
+  },
+  "organic-light-leak-overlay": {
+   "title": "Superposición orgánica de destello de luz",
+   "description": "Superposición CSS finita de destello de luz para momentos de recuerdo y transiciones motivadas"
+  },
+  "oscilloscope-trace": {
+   "title": "Traza de osciloscopio",
+   "description": "Haz de osciloscopio CRT barriendo una forma de onda sobre una retícula de 10x8, con persistencia de fósforo en forma cerrada: la cola decae como exp(-edad/tau) y se ilumina donde el haz se ralentiza"
+  },
+  "rack-focus": {
+   "title": "Cambio de foco",
+   "description": "Un cambio de foco con bokeh de apertura real: el plano focal viaja de un sujeto cercano a uno lejano, de modo que uno se define mientras el otro se desenfoca en discos poligonales de bordes duros que se recortan como ojo de gato hacia las esquinas. Un cambio de foco solo se aprecia con contenido en dos profundidades claramente separadas, así que este bloque incluye su propio exterior nocturno por capas de profundidad y pone ambas profundidades de sujeto en variables."
+  },
+  "reddit-post": {
+   "title": "Tarjeta de publicación de Reddit",
+   "description": "Superposición animada de tarjeta de publicación de Reddit con votos positivos y comentarios"
+  },
+  "ridged-burn": {
+   "title": "Quemado con crestas",
+   "description": "Transición con shader y efecto de quemado por turbulencia con crestas"
+  },
+  "ripple-waves": {
+   "title": "Ondas de ondulación",
+   "description": "Transición con shader y distorsión por ondas concéntricas"
+  },
+  "sdf-iris": {
+   "title": "Iris SDF",
+   "description": "Transición con shader y revelado en iris mediante campo de distancia con signo"
+  },
+  "share-sheet-carousel": {
+   "title": "Carrusel de hoja para compartir",
+   "description": "Una hoja para compartir sube con efecto muelle desde la parte inferior del teléfono y va cambiando las vistas previas dentro de su tarjeta a un ritmo de cortes rápido mientras el fondo desenfocado cambia por detrás, y termina con un toque de aceptar"
+  },
+  "slack-notification-ad": {
+   "title": "Anuncio de notificaciones de Slack",
+   "description": "Una pantalla de bloqueo vertical se llena de peticiones de vídeo de Slack cada vez más urgentes antes de que HeyGen dé la solución"
+  },
+  "spain-map": {
+   "title": "Mapa de España",
+   "description": "Mapa de coropletas animado de España por comunidad autónoma con revelados escalonados y leyenda de degradado: proyección cónica conforme de D3"
+  },
+  "spiral-galaxy": {
+   "title": "Galaxia espiral",
+   "description": "Una galaxia espiral vista desde fuera, girando con rotación diferencial real: las estrellas interiores orbitan más rápido que las exteriores, así que los brazos se enroscan a lo largo del plano en lugar de girar de forma rígida. 20.000 sprites GPU aditivos, generados una sola vez y resueltos directamente a partir del tiempo, de modo que cualquier fotograma puede renderizarse por sí solo."
+  },
+  "split-flap-board": {
+   "title": "Panel de lamas",
+   "description": "Panel de salidas estilo Solari: cada celda hace avanzar su tambor por los caracteres intermedios de un alfabeto fijo hasta llegar a su objetivo, de modo que el texto se resuelve como una cascada mecánica en lugar de un fundido."
+  },
+  "spotify-card": {
+   "title": "Reproduciendo ahora en Spotify",
+   "description": "Tarjeta animada de reproducción actual de Spotify con carátula del álbum y barra de progreso"
+  },
+  "swirl-vortex": {
+   "title": "Vórtice en remolino",
+   "description": "Transición con shader y distorsión de vórtice en remolino"
+  },
+  "thermal-distortion": {
+   "title": "Distorsión térmica",
+   "description": "Transición con shader y distorsión térmica por calima"
+  },
+  "thread-message-stack": {
+   "title": "Pila de mensajes de conversación",
+   "description": "Una pila de conversación editable y propia del código fuente, con mensajes entrantes y salientes arbitrarios"
+  },
+  "tiktok-follow": {
+   "title": "Seguir en TikTok",
+   "description": "Superposición animada de seguimiento de TikTok con tarjeta de perfil y botón de seguir"
+  },
+  "transitions-3d": {
+   "title": "Transiciones 3D",
+   "description": "Muestrario de transiciones 3D de volteo y giro en perspectiva"
+  },
+  "transitions-blur": {
+   "title": "Transiciones de desenfoque",
+   "description": "Muestrario de transiciones basadas en desenfoque entre escenas"
+  },
+  "transitions-cover": {
+   "title": "Transiciones de cubrir",
+   "description": "Muestrario de transiciones deslizantes de cubrir y descubrir"
+  },
+  "transitions-destruction": {
+   "title": "Transiciones de destrucción",
+   "description": "Muestrario de transiciones destructivas de rotura en pedazos"
+  },
+  "transitions-dissolve": {
+   "title": "Transiciones de disolución",
+   "description": "Muestrario de transiciones de disolución y fundido"
+  },
+  "transitions-distortion": {
+   "title": "Transiciones de distorsión",
+   "description": "Muestrario de transiciones de deformación y distorsión"
+  },
+  "transitions-grid": {
+   "title": "Transiciones de cuadrícula",
+   "description": "Muestrario de transiciones de teselas en cuadrícula"
+  },
+  "transitions-light": {
+   "title": "Transiciones de luz",
+   "description": "Muestrario de transiciones de brillo y destello basadas en luz"
+  },
+  "transitions-mechanical": {
+   "title": "Transiciones mecánicas",
+   "description": "Muestrario de transiciones mecánicas de obturador e iris"
+  },
+  "transitions-other": {
+   "title": "Otras transiciones",
+   "description": "Muestrario de transiciones creativas variadas"
+  },
+  "transitions-push": {
+   "title": "Transiciones de empuje",
+   "description": "Muestrario de transiciones de empuje y deslizamiento"
+  },
+  "transitions-radial": {
+   "title": "Transiciones radiales",
+   "description": "Muestrario de transiciones de barrido radial y revelado"
+  },
+  "transitions-scale": {
+   "title": "Transiciones de escala",
+   "description": "Muestrario de transiciones de escala y zoom"
+  },
+  "ui-3d-reveal": {
+   "title": "Revelado 3D de interfaz",
+   "description": "Animación de revelado 3D en perspectiva para elementos de interfaz"
+  },
+  "us-map": {
+   "title": "Mapa de EE. UU.",
+   "description": "Mapa de coropletas animado de EE. UU. con revelados escalonados de estados, etiquetas de valor y leyenda de degradado: SVG puro en línea con GSAP"
+  },
+  "us-map-bubble": {
+   "title": "Mapa de burbujas de EE. UU.",
+   "description": "Mapa de burbujas animado de EE. UU. con marcadores de ciudad proporcionales, llamadas de valor y líneas de conexión: combinable con us-map"
+  },
+  "us-map-flow": {
+   "title": "Mapa de flujos de EE. UU.",
+   "description": "Arcos de conexión animados entre ciudades de EE. UU. sobre un mapa base: visualización de flujo origen-destino combinable"
+  },
+  "us-map-hex": {
+   "title": "Mapa de cuadrícula hexagonal de EE. UU.",
+   "description": "Mapa animado de teselas hexagonales: cada estado como un hexágono de peso igual con relleno de datos y etiqueta de abreviatura"
+  },
+  "vfx-anamorphic-flare": {
+   "title": "Destello de franja anamórfica",
+   "description": "Un campo a la deriva de puntos brillantes, cada uno de los cuales proyecta la larga franja horizontal azul violácea que produce un objetivo de cine anamórfico real. Construido con las constantes de filtro medidas: un paso alto de 0,3, 80 muestras horizontales a un cuarto de resolución, una ganancia de muestras/3 y un tinte 0x7a8aff."
+  },
+  "vfx-iphone-device": {
+   "title": "Muestrario 3D de iPhone y MacBook",
+   "description": "Modelos GLTF reales de iPhone 15 Pro Max y MacBook Pro con contenido de pantalla HTML-in-Canvas en vivo, lente de cristal que se transforma, coreografía de cámara de reseña de producto y plato giratorio de 360°."
+  },
+  "vfx-liquid-background": {
+   "title": "Fondo líquido",
+   "description": "Simulación orgánica de líquido con desplazamiento de vértices sobre un plano subdividido. El contenido HTML flota sobre una superficie de fluido ondulante con dinámica de olas en tiempo real."
+  },
+  "vfx-liquid-glass": {
+   "title": "Cristal líquido",
+   "description": "Bloque de composición VFX"
+  },
+  "vfx-magnetic": {
+   "title": "Magnético",
+   "description": "Bloque de composición VFX"
+  },
+  "vfx-portal": {
+   "title": "Portal",
+   "description": "Bloque de composición VFX"
+  },
+  "vfx-shatter": {
+   "title": "Añicos",
+   "description": "Bloque de composición VFX"
+  },
+  "vfx-text-cursor": {
+   "title": "Cursor de texto VFX",
+   "description": "Revelado dramático de texto con brillo de cursor, rayos de sombra cromática e iluminación direccional sobre un escenario negro. Posprocesado con shader sobre canvas con bordes de color espectral."
+  },
+  "vpn-youtube-spot": {
+   "title": "Spot de YouTube sobre VPN",
+   "description": "Inserto dinámico de YouTube al estilo Apple que muestra un teléfono encontrando e instalando una app de VPN amigable con efectos de sonido."
+  },
+  "weight-wave": {
+   "title": "Onda de grosor",
+   "description": "Una cresta de grosor recorre un titular: cada carácter engorda de ligero a negro y se inclina hacia delante al pasar la onda, controlado por los ejes de fuente variable wght y slnt en lugar de por transformaciones."
+  },
+  "whip-pan": {
+   "title": "Panorámica rápida",
+   "description": "Transición con shader que simula una panorámica rápida de cámara"
+  },
+  "wireframe-portal-title": {
+   "title": "Título con portal de malla",
+   "description": "Un portal de malla se abre de golpe, el título lo atraviesa y después sus letras se transforman en una segunda frase."
+  },
+  "world-map": {
+   "title": "Mapa del mundo",
+   "description": "Mapa mundial de coropletas animado con revelado país por país, etiquetas emergentes y globo giratorio en recuadro: proyección Natural Earth de D3"
+  },
+  "x-post": {
+   "title": "Tarjeta de publicación de X",
+   "description": "Superposición animada de tarjeta de publicación de X/Twitter con métricas de interacción"
+  },
+  "yt-comment-card": {
+   "title": "Tarjetas de comentarios",
+   "description": "Comentarios sociales escribiéndose sobre metraje: aparición del avatar, nombre de usuario y hora, máquina de escribir carácter a carácter, fila de me gusta; avatares de imagen o chips con iniciales"
+  },
+  "yt-lcd-background": {
+   "title": "Fondo de panel con líneas de escaneo",
+   "description": "Panel de papel texturizado: líneas de escaneo con deriva lenta, cuadrícula de píxeles opcional, grano estático y texto de pantalla con entrada de enfoque desde desenfoque y título con franja cromática"
+  },
+  "yt-logo-intro": {
+   "title": "Secuencia de intro de logotipo",
+   "description": "El sello del logotipo aparece sobre un panel rayado, una línea de antetítulo da paso al título con un chip de flecha de acento; distorsión de líneas con semilla"
+  },
+  "yt-lower-third": {
+   "title": "Rótulo inferior de YouTube",
+   "description": "Rótulo inferior animado de suscripción de YouTube con avatar e información del canal"
+  },
+  "yt-prism-title": {
+   "title": "Título con franja cromática",
+   "description": "Título de pantalla sobre raíz transparente: entrada de enfoque desde desenfoque, franja roja/azul que se asienta y luego respira, curvatura en perspectiva, deriva lenta de escala"
+  },
+  "yt-vertical-fill": {
+   "title": "Relleno de medios verticales",
+   "description": "Medios verticales que llenan un encuadre panorámico mediante rellenos laterales de escala desenfocada, espejo o copia; textura de cuadrícula y realce de contraste en primer plano (imágenes dentro del bloque; el metraje en vivo se mantiene en el anfitrión)"
+  },
+  "animated-bar-chart": {
+   "title": "Gráfico de barras animado",
+   "description": "Una tarjeta de datos compacta con crecimiento determinista de barras y llamadas de valor."
+  },
+  "arc-motion-path": {
+   "title": "Trayectoria de movimiento en arco",
+   "description": "Una primitiva GSAP MotionPath que lleva una llamada por un arco curvo con rotación automática."
+  },
+  "ascii-render-pass": {
+   "title": "Pase de renderizado ASCII",
+   "description": "Una escena en ranura se renderiza como ASCII en vivo: un canvas muestrea la cuadrícula de luminancia de la fuente (rasterizada una vez al montar) y dibuja glifos de un juego de caracteres con rampa de densidad; la resolución pasa de gruesa a fina a medida que la pieza se define y luego se mantiene legible y fina."
+  },
+  "ascii-trail-reveal": {
+   "title": "Revelado con estela ASCII",
+   "description": "Una curva en S creada a mano recorre una cuadrícula ASCII determinista, volteando celdas para revelar un panel con etiqueta."
+  },
+  "aurora-drift": {
+   "title": "Deriva de aurora",
+   "description": "Tres suaves campos de aurora derivados del acento derivan en un bucle ambiental exacto sobre una base profunda y una viñeta tenue."
+  },
+  "avatar-cloud": {
+   "title": "Nube de avatares",
+   "description": "Avatares con inicial pueblan una nube elíptica suelta mientras finos enlaces SVG se dibujan entre la comunidad y su etiqueta central de prueba."
+  },
+  "avatar-group-hover": {
+   "title": "Grupo de avatares al pasar el cursor",
+   "description": "Elevación de un grupo de avatares con atenuación por distancia y retorno elástico al pasar el cursor"
+  },
+  "badge-pop": {
+   "title": "Aparición de insignia",
+   "description": "Aparición de insignia de notificación inspirada en transitions.dev, con escala elástica y revelado del contador"
+  },
+  "beat-accent": {
+   "title": "Acento de beat",
+   "description": "Un único golpe musical: destello de impacto, micropulso de escala en el sujeto y decaimiento inmediato."
+  },
+  "beat-pulse-background": {
+   "title": "Fondo con pulso de beat",
+   "description": "Un fondo derivado del acento pulsa la intensidad de su brillo y su saturación sobre una cuadrícula de beats determinista y suministrada."
+  },
+  "beat-timeline": {
+   "title": "Línea de tiempo de beats",
+   "description": "Una columna vertebral de orquestación con línea de tiempo maestra en pausa que fija filas de beats tituladas a etiquetas con nombre espaciadas uniformemente. Cada fila entra en su etiqueta, se mantiene con la secuencia y sale con el grupo."
+  },
+  "before-after-wipe": {
+   "title": "Barrido antes y después",
+   "description": "Dos ranuras de contenido a sangre comparan los estados de antes y después mientras un divisor persistente barre la capa de después sobre la de antes y se detiene en una división configurable. Quien lo use rellena los paneles de ranura nombrados antes/después; se muestran valores por defecto con estilo de tokens cuando una ranura queda vacía."
+  },
+  "blur-in": {
+   "title": "Entrada con desenfoque",
+   "description": "Un revelado de contenido por palabras en Operator Black que resuelve su propio texto desde un desenfoque controlado"
+  },
+  "blur-out-up": {
+   "title": "Salida con desenfoque hacia arriba",
+   "description": "Las palabras llegan nítidas y se van hacia arriba con desenfoque creciente para salidas etéreas."
+  },
+  "bottom-up-letters": {
+   "title": "Letras de abajo arriba",
+   "description": "Divide el texto en letras y revela cada glifo desde abajo con un escalonado determinista"
+  },
+  "browser-device-stage": {
+   "title": "Escenario de dispositivo con navegador",
+   "description": "Una superficie de app genérica en un marco de dispositivo nativo de tokens (navegador, ventana o teléfono). La pantalla es una ranura para img/vídeo/HTML del usuario con un esqueleto por defecto con estilo de tokens; una entrada de asentamiento, una pausa legible y un cambio de pantalla opcional."
+  },
+  "camera-rig-depth-stack": {
+   "title": "Pila de profundidad con rig de cámara",
+   "description": "Una pila de tarjetas 3D al estilo rig de cámara con profundidad, paralaje y cambio de foco."
+  },
+  "camera-scan-gate": {
+   "title": "Puerta de escaneo de cámara",
+   "description": "Un momento de reconocimiento de cámara y QR con barrido de visor, bloqueo de marcos, pulso de confirmación y siguiente beat verificado."
+  },
+  "camera-shake": {
+   "title": "Temblor de cámara",
+   "description": "Temblor de cámara procedural de mano, teleobjetivo y rig para cualquier envoltorio: nueve perfiles medidos con proyección por objetivo, en forma cerrada y seguro al buscar"
+  },
+  "caption-blend-difference": {
+   "title": "Mezcla por diferencia",
+   "description": "Texto autoinvertido con mix-blend-mode: difference: alterna entre blanco y negro por píxel según el fondo"
+  },
+  "caption-camera-follow": {
+   "title": "Subtítulos con seguimiento de cámara",
+   "description": "Una frase escrita a lo largo de un mundo mucho mayor que el encuadre. Cada palabra se dimensiona respecto a todo lo ya escrito, así que el bloque crece geométricamente y la cámara se aleja a un ritmo constante para que la nueva palabra aterrice siempre al mismo tamaño. Las palabras antiguas siguen iluminadas y simplemente se hacen pequeñas."
+  },
+  "caption-clip-wipe": {
+   "title": "Barrido con recorte",
+   "description": "Revelado por palabra con barrido clip-path de izquierda a derecha"
+  },
+  "caption-editorial-emphasis": {
+   "title": "Énfasis editorial",
+   "description": "Sistema de dos fuentes con gran contraste de tamaño para las palabras de énfasis"
+  },
+  "caption-emoji-pop": {
+   "title": "Aparición de emoji",
+   "description": "Integración de emojis con texto con contorno y entrada con compresión horizontal"
+  },
+  "caption-glitch-rgb": {
+   "title": "Glitch RGB",
+   "description": "Aberración cromática RGB con superposición de líneas de escaneo CRT"
+  },
+  "caption-gradient-fill": {
+   "title": "Relleno de degradado",
+   "description": "Texto recortado con degradado y entrada con rebote elástico"
+  },
+  "caption-highlight": {
+   "title": "Resaltado",
+   "description": "Barrido de fondo rojo tras cada palabra activa, al estilo TikTok"
+  },
+  "caption-kinetic-slam": {
+   "title": "Golpe cinético",
+   "description": "Pantalla completa con una sola palabra y direcciones de entrada alternas"
+  },
+  "caption-matrix-decode": {
+   "title": "Descodificación Matrix",
+   "description": "Animación de mezcla de caracteres antes del revelado del texto"
+  },
+  "caption-neon-accent": {
+   "title": "Acento de neón",
+   "description": "Acentos de brillo neón multicolor con animación de deriva ondulante"
+  },
+  "caption-neon-glow": {
+   "title": "Resplandor neón",
+   "description": "Resplandor neón cian y magenta con colores de acento para las palabras clave"
+  },
+  "caption-parallax-layers": {
+   "title": "Capas con paralaje",
+   "description": "Texto 3D en capas por detrás del sujeto con efecto de estiramiento vertical"
+  },
+  "caption-particle-burst": {
+   "title": "Estallido de partículas",
+   "description": "Las palabras clave desencadenan explosiones de partículas de colores"
+  },
+  "caption-pill-karaoke": {
+   "title": "Karaoke en píldora",
+   "description": "Contenedor en forma de píldora con resaltado de color estilo karaoke palabra a palabra"
+  },
+  "caption-texture": {
+   "title": "Textura",
+   "description": "Máscara de textura fluida sobre texto grande en mayúsculas: incluye 6 texturas (lava, mármol, metal, madera, hormigón, roca), configurable mediante la variable texture"
+  },
+  "caption-weight-shift": {
+   "title": "Cambio de grosor",
+   "description": "Elegante transición de grosor tipográfico entre líneas de subtítulos"
+  },
+  "card-resize": {
+   "title": "Redimensionar tarjeta",
+   "description": "Primitiva de redimensionado de tarjeta inspirada en transitions.dev que expande una tarjeta compacta hasta un panel de detalle"
+  },
+  "char-slam-explode": {
+   "title": "Golpe y explosión de caracteres",
+   "description": "Los glifos del titular se mantienen en una dispersión determinista y luego se recomponen con un golpe con sobreimpulso y una sacudida de tres fotogramas al aterrizar."
+  },
+  "chart-story": {
+   "title": "Gráfico narrativo",
+   "description": "Un gráfico se construye a partir de los datos en orden de lectura y aterriza en los valores exactos suministrados: barras escalonadas, una línea de izquierda a derecha con relleno de área, un donut con barrido o barras de progreso que se llenan, con una llamada de valor acentuada en el dato destacado."
+  },
+  "chat-message": {
+   "title": "Mensaje de chat",
+   "description": "Un mensaje llega con la entrada medida: escala 0,75, 0,12 s, creciendo desde la esquina de quien lo envía. El tipo es una enumeración que se cambia como el estilo de marker-highlight: una burbuja recibida o enviada con cola real, una fila de emojis grandes, una imagen o una tarjeta de enlace con título y dominio. Es el átomo con el que chat-thread construye las conversaciones"
+  },
+  "chat-thread": {
+   "title": "Hilo de chat",
+   "description": "La conversación medida como una escena montable a fidelidad completa: barra de estado, insignia de volver, avatar y píldora de nombre, burbujas con colas reales de iMessage, un acuse de Entregado, filas de emojis grandes, un marcador de posición de contenido multimedia, una tarjeta de enlace y puntos de escritura que mantienen el ritmo. Cada mensaje elige su tipo por prefijo (recv:/sent: texto, emoji: una fila grande, img contenido multimedia, card:Título~dominio una tarjeta de enlace) y las alturas se miden al montar, así que cualquier hilo encaja"
+  },
+  "chromatic-aberration-wipe": {
+   "title": "Barrido con aberración cromática",
+   "description": "Un barrido deslizante rápido con separación de canales RGB en los fotogramas de máxima intensidad."
+  },
+  "code-terminal-run": {
+   "title": "Ejecución en terminal de código",
+   "description": "Un panel de terminal con estilo de tokens ejecuta un comando: la línea del prompt se escribe de forma determinista tras un cursor de ciclo entero, se ejecuta tras una pausa y las líneas de salida se imprimen una por señal antes de que aparezca un nuevo prompt."
+  },
+  "colorama-wipe": {
+   "title": "Barrido Colorama",
+   "description": "Revelado de titular mediante un frente de barrido difuminado e inclinado que se desenfoca y se mapea en color al pasar, luego se asienta en texto nítido y vuelve a barrerse: el barrido brillante de After Effects con texto enmascarado + Compound Blur + Colorama, como efecto de canvas determinista sobre cualquier elemento de texto"
+  },
+  "comparison-split": {
+   "title": "Comparación dividida",
+   "description": "Dos paneles a sangre comparan los estados antes y después mientras un divisor persistente barre la capa vívida del después sobre la capa apagada del antes y se detiene en una división configurable."
+  },
+  "confetti": {
+   "title": "Confeti",
+   "description": "Una explosión de celebración determinista con partículas con semilla y gravedad."
+  },
+  "conic-progress-ring": {
+   "title": "Anillo de progreso cónico",
+   "description": "Un anillo de progreso cónico basado en tokens cuyo relleno angular y cuenta central se asientan a la vez a partir de un único porcentaje registrado."
+  },
+  "constellation-hub": {
+   "title": "Concentrador de constelación",
+   "description": "Los nodos de funciones se iluminan en el orden de la narración mientras conectores SVG de longitud real se dibujan hacia fuera desde un concentrador central fijo y luego se asientan en un único conjunto."
+  },
+  "count-up": {
+   "title": "Cuenta ascendente",
+   "description": "Un contador de estadísticas nativo de tokens que pasa suavemente entre valores, contando hacia arriba o hacia abajo, y aterriza con un pulso de escala contenido."
+  },
+  "cta-close": {
+   "title": "Cierre con llamada a la acción",
+   "description": "Una línea de acción a escala de exhibición aterriza palabra a palabra y llena el encuadre de aire, una generosa cápsula de llamada a la acción aparece debajo con un único sobreimpulso y el cierre terminado se mantiene completamente quieto."
+  },
+  "cta-lockup": {
+   "title": "Conjunto de llamada a la acción",
+   "description": "Un conjunto de cierre canónico que revela una línea de acción, hace aparecer una cápsula de llamada a la acción con color de acento, asienta el microtexto de apoyo y se mantiene con aplomo."
+  },
+  "cursor-glyph-trail": {
+   "title": "Estela del cursor",
+   "description": "Un recorrido de cursor de tutorial: en una pantalla de ajustes la flecha hace clic en tres pasos, dejando una estela punteada espaciada uniformemente por distancia y un marcador numerado en cada clic; la estela de cada paso se desvanece cuando empieza el siguiente movimiento."
+  },
+  "cut-the-curve": {
+   "title": "Cortar la curva",
+   "description": "Un corte directo direccional con velocidad acompasada: el sujeto saliente acelera con power4.in, se intercambia a velocidad máxima y el sujeto entrante continúa en la misma dirección con power4.out."
+  },
+  "decline-chart": {
+   "title": "Gráfico de descenso",
+   "description": "Una línea de métrica se dibuja hacia abajo mientras su valor cuenta hacia atrás y el fondo ambiental se oscurece al unísono."
+  },
+  "device-frame-stage": {
+   "title": "Escenario con marco de dispositivo",
+   "description": "Una maqueta de teléfono o tableta montada como accesorio físico de escena con una ranura de pantalla para cualquier interfaz reconstruida, que sube al escenario, se asienta y mantiene una flotación en reposo"
+  },
+  "directional-wipe": {
+   "title": "Barrido direccional",
+   "description": "Un empuje de escena direccional que desliza un panel sobre otro."
+  },
+  "drift-hold": {
+   "title": "Deriva sostenida",
+   "description": "Una tarjeta de contenido centrada se mantiene sutilmente viva mediante rotación exacta en bucle, respiración de escala y un lento barrido de luz."
+  },
+  "dynamic-grid": {
+   "title": "Cuadrícula dinámica",
+   "description": "Un fondo de cuadrícula animada adaptable, controlado por variables CSS, para escenas de SaaS, código y datos"
+  },
+  "echo-trail": {
+   "title": "Estela de eco",
+   "description": "Un elemento en movimiento se renderiza con N copias fantasma de sí mismo en t menos i veces delta, con la opacidad reducida por cada fantasma; un único recorrido, con los ecos colapsando en el elemento asentado en reposo."
+  },
+  "extended-keyframe": {
+   "title": "Fotograma clave extendido",
+   "description": "La llegada que nunca termina de aterrizar: un elemento cubre la mayor parte de su movimiento en el primer quinto de la duración y se arrastra el resto hasta el último fotograma, sale siguiendo su vector de llegada y lleva desenfoque de movimiento de obturador, desde cualquier lado o por escala, una llamada por elemento, además de la curva de aceleración por sí sola para cualquier interpolación"
+  },
+  "facet-morph": {
+   "title": "Metamorfosis facetada",
+   "description": "Una masa facetada low-poly de 36 triángulos se remodela continuamente entre tres siluetas diseñadas (blob, marca, insignia) con sombreado plano por faceta que se recalcula al moverse los vértices. La luz llega desde arriba a la izquierda; las facetas iluminadas se elevan hacia un tono pálido teñido de acento mientras las facetas giradas se hunden hacia casi negro. Una metamorfosis continua y serena, y luego una pausa asentada."
+  },
+  "fade-through": {
+   "title": "Fundido a través",
+   "description": "Una primitiva de transición calmada que desvanece una capa, pasa por un velo y revela la siguiente capa"
+  },
+  "focus-blur-resolve": {
+   "title": "Resolución de desenfoque de foco",
+   "description": "Un cambio de foco premium desde un desenfoque intenso hasta texto nítido, y luego una salida suave con desenfoque."
+  },
+  "focus-rack": {
+   "title": "Cambio de foco",
+   "description": "El foco se desplaza una vez entre dos tarjetas a distintas profundidades aparentes mediante desenfoque, atenuación, escala y paralaje sincronizados."
+  },
+  "focus-swap": {
+   "title": "Intercambio de foco",
+   "description": "Traslada la atención entre dos tarjetas lado a lado: una retrocede con escala, desenfoque y atenuación mientras la otra avanza hasta el foco completo."
+  },
+  "gesture-tap": {
+   "title": "Toque de gesto",
+   "description": "Un círculo de contacto toca un botón en píldora móvil, lo suelta en un nuevo estado de acento con etiqueta y se retira."
+  },
+  "gloss-sweep": {
+   "title": "Barrido de brillo",
+   "description": "Una tarjeta aterriza con un golpe contenido, capta un brillo especular diagonal y se mantiene perfectamente quieta."
+  },
+  "grade-split-reveal": {
+   "title": "Revelado de gradación dividido",
+   "description": "La misma imagen dos veces, una plana y otra terminada, con un borde duro barriendo entre ellas. Se detiene en medio el tiempo suficiente para comparar, luego se confirma y el aspecto gradado toma el encuadre. Ambos aspectos son gradación de color real de HyperFrames procesada con el shader WebGL, de modo que la vista previa y el render coinciden."
+  },
+  "grain-field": {
+   "title": "Campo de grano",
+   "description": "Un campo de puntos con tinte de acento claramente visible deriva sobre un sutil degradado de luminancia en un bucle ambiental exacto."
+  },
+  "grain-overlay": {
+   "title": "Superposición de grano",
+   "description": "Superposición de textura de grano de película animada con fotogramas clave CSS: aporta calidez y carácter analógico a cualquier composición"
+  },
+  "grid-card-assemble": {
+   "title": "Ensamblado de tarjetas en cuadrícula",
+   "description": "N tarjetas de capacidades (icono de línea fina que se dibuja, etiqueta monoespaciada, cuerpo opcional atenuado) se ensamblan de forma escalonada en una cuadrícula o lista vertical con un fundido más un breve deslizamiento hasta su hueco, y luego se mantienen perfectamente quietas."
+  },
+  "grid-pixelate-wipe": {
+   "title": "Barrido de pixelado en cuadrícula",
+   "description": "Efecto de transición en el que la pantalla se disuelve en una cuadrícula de cuadrados que se desvanecen con tiempos escalonados: úsalo entre escenas"
+  },
+  "halftone-dissolve": {
+   "title": "Disolución de semitono",
+   "description": "La escena A se disuelve en la escena B a través de un campo creciente de puntos de semitono: los puntos de tinta de acento aparecen sobre una cuadrícula fija del más pequeño al mayor, cada uno se abre como una ventana hacia B, hasta que las ventanas se funden y B sustituye por completo a A."
+  },
+  "headline-slam": {
+   "title": "Golpe de titular",
+   "description": "Un titular pesado se reduce de escala hasta entrar en el encuadre, aterriza con una sacudida determinista de tres fotogramas, se mantiene con una ligera deriva y sale con un latigazo hacia arriba."
+  },
+  "hw-arrow": {
+   "title": "Flecha dibujada a mano",
+   "description": "Flecha con trazo ondulado que se dibuja, con poses de curva recta, suave y de remolino, una matriz de textura de trazo de cuatro vías (liso/suave/afilado/spray) y un pulso de estiramiento de llegada de la cabeza alineado con el recorrido con recuperación de muelle; vibra mientras está en pantalla"
+  },
+  "hw-boil": {
+   "title": "Vibración dibujada a mano",
+   "description": "Temblor dibujado a mano que cambia de pose cada N fotogramas, como utilidades seguras para el desplazamiento: la pose se deriva del tiempo de línea de tiempo cuantizado mediante un hash con semilla; incluye el despachador onUpdate compartido, un generador de trayectorias de elipse ondulada, el control de pose de vibración (apagado/calma/viva sobre el frameDrop bloqueado por familia), una curva de aceleración de velocidad de pluma adaptada a la curvatura y la matriz de trazo completa (liso/suave/afilado/spray; el spray son puntos deterministas con semilla por índice, sin turbulencia) con dibujado seguro para texturas"
+  },
+  "hw-box-label": {
+   "title": "Etiqueta en recuadro dibujado a mano",
+   "description": "Un rectángulo redondeado ondulado se dibuja, a través de la matriz de trazo diseñada (liso/suave/afilado/spray), o cae y aterriza con un aplastamiento de contacto fiel al volumen y una recuperación de muelle rebotante, con una etiqueta manuscrita encima o centrada; vibra"
+  },
+  "hw-callout-circle": {
+   "title": "Círculo de llamada garabateado",
+   "description": "Una elipse ondulada se dibuja alrededor de un objetivo con relleno de garabato opcional y conector curvo; la etiqueta manuscrita aparece CON impulso y las formas dibujadas absorben la llegada con un aplastamiento de contacto que conserva el volumen; el contorno y el conector adoptan la matriz de trazo de la familia (liso/suave/afilado/spray); vibra"
+  },
+  "hw-underline": {
+   "title": "Marcas ondulantes",
+   "description": "Subrayado ondulante dibujado a mano, tachado de doble pasada y corchetes que se dibujan"
+  },
+  "icon-morph-beat": {
+   "title": "Pulso de metamorfosis de icono",
+   "description": "Un icono se transforma entre siluetas de estado diseñadas, cambia a un color de acento y marca la finalización con un único pulso contenido."
+  },
+  "icon-swap": {
+   "title": "Intercambio de icono",
+   "description": "Una primitiva de intercambio de icono con escala y desenfoque para cambios de estado de barras de herramientas y acciones"
+  },
+  "ink-bleed-reveal": {
+   "title": "Revelado de tinta que sangra",
+   "description": "La tinta líquida se expande por el papel bajo un filtro viscoso de desenfoque más umbral, se fusiona y luego se contrae mientras una marca nítida en su ranura se resuelve debajo, con un grano de papel estático con semilla sobre el resultado."
+  },
+  "inline-highlight": {
+   "title": "Resaltado en línea",
+   "description": "Un resaltado en línea limpio estilo marcador que se anima detrás del texto mediante una variable de escala CSS"
+  },
+  "input-feedback": {
+   "title": "Respuesta de campo de entrada",
+   "description": "Primitiva de respuesta de campo de entrada inspirada en transitions.dev con sacudida, affordance de borrado y estado de éxito"
+  },
+  "iris-reveal": {
+   "title": "Revelado en iris",
+   "description": "Un clip-path circular se abre desde un origen definido y revela el estado B sobre el estado A en una pasada segura, y luego se mantiene en B. El registro clásico atenúa y desatura el estado anterior para que el posterior aterrice a todo color; un fino borde de acento recorre el canto del iris. Quien la use rellena los paneles de hueco con nombre antes/después; si un hueco queda vacío se renderizan valores por defecto con estilo de tokens."
+  },
+  "keyframe-scrub-stack": {
+   "title": "Pila de tarjetas con fotogramas clave",
+   "description": "Una pila de tarjetas secuenciada por fotogramas clave con tiempos desfasados y preajustes de curva de aceleración."
+  },
+  "kinetic-center-build": {
+   "title": "Construcción cinética centrada",
+   "description": "Las palabras entran por la derecha y empujan hacia la izquierda la frase creciente hasta que la línea final queda fijada en el centro."
+  },
+  "kinetic-type-swap": {
+   "title": "Intercambio de tipografía cinética",
+   "description": "Una frase sostenida mantiene su texto fijo en su sitio mientras un hueco enmascarado del ancho de la palabra más larga recorre alternativas y se detiene en la opción final."
+  },
+  "light-sweep-pass": {
+   "title": "Pasada de barrido de luz",
+   "description": "Una luz principal en movimiento vuelve a iluminar una escena en hueco: una suave banda de degradado diagonal cruza el encuadre una vez mientras cada brillo y sombra por elemento se desplaza al unísono (todo controlado por una única propiedad --light-x), y luego la luz se asienta en una luz principal en reposo. Discreta, con sensación de lujo; la escena en sí nunca se mueve. Quien la use rellena el hueco de escena con nombre; si queda vacío se renderiza un valor por defecto de héroe y tarjetas con tokens."
+  },
+  "line-by-line-slide": {
+   "title": "Deslizamiento línea a línea",
+   "description": "Cada línea entra desde la izquierda con deslizamiento escalonado y sale hacia la derecha."
+  },
+  "line-swap": {
+   "title": "Intercambio de línea",
+   "description": "Un reemplazo de línea completa enmascarado al ritmo: la línea A se mantiene en el centro y sale hacia arriba a través de una máscara con overflow oculto mientras la línea B entra de abajo arriba en el mismo tiempo, con un subrayado de acento opcional que se dibuja bajo una palabra de la línea B."
+  },
+  "locked-nucleus-orbit": {
+   "title": "Órbita con núcleo fijo",
+   "description": "Un núcleo central fijo ancla órbitas deterministas de satélites que se asientan en un conjunto compuesto."
+  },
+  "logo-brand-close": {
+   "title": "Cierre de marca con logotipo",
+   "description": "Un logotipo tipográfico a escala de exhibición cae letra a letra hasta formar un conjunto centrado, el punto de acento de la marca aterriza el último, un eslogan opcional y una URL monoespaciada de tracking amplio se asientan debajo, y la identidad terminada se mantiene totalmente quieta hasta el final de la película."
+  },
+  "logo-sting": {
+   "title": "Sello de logotipo",
+   "description": "Un logotipo tipográfico golpea hasta su escala final, lanza un anillo de acento y un fotograma blanco de impacto, y luego se mantiene completamente quieto."
+  },
+  "logo-wall": {
+   "title": "Muro de logotipos",
+   "description": "Un muro de «confían en nosotros» con logotipos de marcador de posición en forma de letra que se desvanecen y escalan hasta su sitio con un escalonado determinista por celda."
+  },
+  "marker-checklist-card": {
+   "title": "Tarjeta de lista con rotulador",
+   "description": "Una tarjeta de papel escrita a mano: titular con rotulador con un subrayado y una elipse dibujada alrededor de una palabra, y luego tres filas de lista cuyas marcas se dibujan solas, con etiquetas de máquina de escribir y valores a rotulador. La hermana de papel y rotulador de las filas limpias y profesionales de mk-specs-list"
+  },
+  "marker-highlight": {
+   "title": "Resaltado con rotulador",
+   "description": "El texto de exhibición se asienta y luego un trazo de rotulador dibujado a mano (resaltado, círculo, subrayado o garabato) se dibuja sobre la palabra enfatizada a la señal."
+  },
+  "match-cut": {
+   "title": "Corte por coincidencia",
+   "description": "Un círculo acelera hasta un intercambio de escena duro de un solo fotograma, coincide exactamente con el círculo entrante y continúa hasta una pose de reposo más pequeña."
+  },
+  "matrix-decode": {
+   "title": "Decodificación Matrix",
+   "description": "Una mezcla aleatoria se resuelve de izquierda a derecha hasta el texto objetivo."
+  },
+  "menu-morph": {
+   "title": "Metamorfosis de menú",
+   "description": "Primitiva de metamorfosis de hamburguesa y menú de más inspirada en transitions.dev para menús de acciones compactos"
+  },
+  "mesh-gradient-bg": {
+   "title": "Fondo de degradado en malla",
+   "description": "Un degradado en malla seguro para el render que usa capas radiales animadas."
+  },
+  "micro-transitions": {
+   "title": "Microtransiciones",
+   "description": "Un paquete inspirado en transitions.dev de microtransiciones de insignia, desplegable, modal, pestañas, tooltip y marca de éxito"
+  },
+  "mk-emphasis-type": {
+   "title": "Tipografía de énfasis de fondo",
+   "description": "Palabra sobredimensionada y de bajo contraste en el fondo que deriva lentamente detrás del sujeto: la tipografía como textura"
+  },
+  "mk-usage-arc": {
+   "title": "Medidor de arco de línea fina",
+   "description": "Medidor circular fino que se dibuja mientras su porcentaje cuenta hacia arriba; una sola llamada auxiliar controla ambos"
+  },
+  "modal-morph": {
+   "title": "Metamorfosis de modal",
+   "description": "Una tarjeta pequeña se expande hasta un panel completo, al estilo de elemento compartido: ambos diseños se miden una vez al montar, el contenedor se transforma solo mediante transform (nunca con interpolaciones de ancho/alto) mientras los hijos con clave contraescalan y se recolocan en sus propios destinos medidos como funciones puras del tiempo."
+  },
+  "morph-swap": {
+   "title": "Intercambio por metamorfosis",
+   "description": "Dos hermanos en hueco apilados en un centro compartido: A se mantiene y luego se condensa o se remodela en B sobre un origen de transformación compartido 50% 50%. Condensar encoge y desvanece A exactamente mientras B escala hacia arriba; remodelar transforma la silueta con scaleX/scaleY, nunca con interpolaciones de ancho o alto. Si un hueco queda vacío se renderizan valores por defecto de tarjeta con tokens."
+  },
+  "morph-text": {
+   "title": "Texto en metamorfosis",
+   "description": "Metamorfosis de texto viscosa: recorre una lista de palabras editable usando umbral SVG + desenfoque controlado por GSAP para un efecto de transición fluido y satisfactorio"
+  },
+  "motion-blur": {
+   "title": "Desenfoque de movimiento",
+   "description": "Desenfoque de movimiento al estilo After Effects: integra cada elemento sobre una ventana de obturación (ángulo de obturación, fase, muestras por fotograma) muestreando la línea de tiempo de GSAP en instantes subfotograma y promediando copias aditivas de igual peso del elemento a lo largo de su trayectoria real, de modo que traslación, escala, rotación, rotación 3D e inclinación controlan el difuminado"
+  },
+  "multi-device-splay": {
+   "title": "Abanico multidispositivo",
+   "description": "Maquetas de producto de teléfono, tableta y escritorio se abren en abanico desde una pila centrada hasta una disposición desplegada con orgullo y una sutil flotación en reposo."
+  },
+  "multiplayer-cursors": {
+   "title": "Cursores multijugador",
+   "description": "Cursores de colaboradores con etiqueta, colores derivados de tokens y suaves resplandores derivan desde posiciones dispersas hasta una zona central compartida, demostrando presencia multijugador en vivo."
+  },
+  "native-notification-pop": {
+   "title": "Aparición de notificación nativa",
+   "description": "Un banner de notificación fiel al sistema (iOS o macOS) cae sobre cualquier escena con un muelle preciso e interrumpible: llegada rápida, sobreimpulso suave, masa asentada, desenfoque de fondo, punto de aplicación, título y una línea de cuerpo. Se mantiene; solo se retira mediante la salida."
+  },
+  "notes-typing": {
+   "title": "Escritura en notas",
+   "description": "La confesión de la app de notas como escena montable: un título en negrita y luego líneas de cuerpo escritas carácter a carácter con el ritmo de pulsación humano medido, con el cursor acompañando cada carácter aterrizado y saltando abajo en cada párrafo. Para una simple línea de prompt usa typed-prompt; para un revelado mecánico uniforme usa typewriter"
+  },
+  "notification-pileup": {
+   "title": "Acumulación de notificaciones",
+   "description": "Tarjetas de notificación móvil llegan cada vez más rápido, y cada nueva alerta empuja la pila existente hacia abajo hasta formar una torre densa y angustiosa."
+  },
+  "notification-stack": {
+   "title": "Pila de notificaciones",
+   "description": "De 1 a 5 tarjetas de notificación con tokens se deslizan y asientan en una pila vertical a las señales, la más nueva arriba; una tarjeta crece ligeramente y se ilumina como foco mientras las demás se atenúan según su posición."
+  },
+  "number-pop-in": {
+   "title": "Aparición de número",
+   "description": "Aparición de dígitos inspirada en transitions.dev con desenfoque, elevación y revelado escalonado del valor"
+  },
+  "number-wheel": {
+   "title": "Rueda de números",
+   "description": "Una primitiva de contador de dígitos rodante para métricas, precios, recuentos y marcadores"
+  },
+  "offset-path-traveler": {
+   "title": "Viajero por trayectoria desplazada",
+   "description": "Un viajero en hueco sigue una trayectoria definida con rotación tangente, entrada curva y salida curva."
+  },
+  "onboarding-stepper-flow": {
+   "title": "Flujo de incorporación por pasos",
+   "description": "Un flujo de incorporación compuesto con carril de hitos, tarjeta del paso activo y botón de siguiente acción"
+  },
+  "ordered-dither-pass": {
+   "title": "Pasada de tramado ordenado",
+   "description": "El tramado ordenado con matriz de Bayer cuantiza una escena en hueco (rasterizada una vez al montar): la imagen emerge desde ruido puro de 2 tonos hasta quedar limpia, o se disuelve a la inversa. Sin estado por fotograma, nunca difusión de error."
+  },
+  "outline-draw": {
+   "title": "Dibujo de contorno",
+   "description": "Un contorno redondeado que da peso a una llamada dibujándose en sentido horario como un borde hueco de degradado cónico con un cierre limpio."
+  },
+  "oversized-cursor": {
+   "title": "Cursor sobredimensionado",
+   "description": "El puntero de «mira aquí» para un vídeo: la flecha de macOS a 3,5 veces su tamaño normal posa su punta sobre un control, hace clic para activarlo, se asienta justo debajo para que el resultado siga a la vista y luego sale de la pantalla"
+  },
+  "overwhelm-surround": {
+   "title": "Agobio envolvente",
+   "description": "Tareas, pestañas, avisos y burbujas de notificación aceleran hacia dentro alrededor de un sujeto central y sereno, convirtiendo la sobrecarga en presión espacial visible."
+  },
+  "page-slide": {
+   "title": "Deslizamiento de página",
+   "description": "Primitiva de deslizamiento de página inspirada en transitions.dev con paneles saliente y entrante"
+  },
+  "pan-stations": {
+   "title": "Panorámica por estaciones",
+   "description": "Un movimiento lateral de cámara a lo largo de una fila continua de estaciones de funciones con etiqueta, con una pausa constante en cada parada antes de la siguiente panorámica."
+  },
+  "panel-reveal": {
+   "title": "Revelado de panel",
+   "description": "Una primitiva de revelado de panel con expansión de altura y fundido del contenido"
+  },
+  "parallax-device-dive": {
+   "title": "Inmersión en dispositivo con paralaje",
+   "description": "Un teléfono canónico sube a la vista antes de que la cámara atraviese su pantalla y la interfaz de la app en capas se expanda hasta llenar el encuadre."
+  },
+  "parallax-unzoom": {
+   "title": "Alejamiento con paralaje",
+   "description": "Transición de revelado: la tarjeta en foco se reduce desde el encuadre completo mientras las vecinas entran con paralaje para formar una cuadrícula (inverso de parallax-zoom)"
+  },
+  "parallax-zoom": {
+   "title": "Zoom con paralaje",
+   "description": "La tarjeta central crece hasta llenar el encuadre mientras las demás se desplazan hacia fuera con paralaje, inspirado en la transición del hero de eBay Playbook"
+  },
+  "particle-image-reveal": {
+   "title": "Revelado de imagen con partículas",
+   "description": "Un campo de partículas determinista con semilla converge y se asienta mientras debajo se revela una imagen en un hueco, y la estela se adelgaza hasta que la imagen queda limpia."
+  },
+  "particle-text-dissolve": {
+   "title": "Disolución de texto en partículas",
+   "description": "El texto se forma a partir de una nube de partículas con semilla (o se disuelve en ella): los destinos de cada partícula se muestrean una sola vez del mapa de bits del texto renderizado al montar, partículas guiadas por tabla, cero animaciones por partícula, un único pintor en onUpdate."
+  },
+  "per-word-crossfade": {
+   "title": "Fundido cruzado por palabras",
+   "description": "Las palabras aparecen suavemente en su sitio con un breve desplazamiento vertical, para un ritmo de keynote sereno."
+  },
+  "per-word-rise": {
+   "title": "Ascenso por palabras",
+   "description": "Palabras o caracteres suben a su sitio en una cascada controlada de borroso a nítido, se asientan con suavidad al aterrizar y se mantienen quietos hasta el corte (salida opcional con fundido o hacia arriba)."
+  },
+  "perspective-marquee": {
+   "title": "Marquesina en perspectiva",
+   "description": "Una marquesina 3D inclinada con sensación de profundidad mientras los elementos ruedan hacia el horizonte."
+  },
+  "physical-exit": {
+   "title": "Salida física",
+   "description": "Una tarjeta sale con inercia física en modo lanzamiento, caída o deslizamiento, arrastrando aceleración y rotación hasta la pose final fuera de plano, sin desvanecerse."
+  },
+  "press-ripple": {
+   "title": "Ondas de pulsación",
+   "description": "Un cursor llega frenando desde fuera de escena, aterriza ligeramente descentrado sobre un objetivo posicionado por quien llama, se comprime con él en sincronía, se suelta con dos pequeños anillos de clic mientras la etiqueta cambia a un check, y sale de escena mientras el estado confirmado se mantiene."
+  },
+  "pull-back-reveal": {
+   "title": "Revelado con retroceso de cámara",
+   "description": "Un detalle de estadística en primer plano se mantiene y después un único retroceso de cámara con deceleración revela el titular y las tarjetas de apoyo que lo recontextualizan."
+  },
+  "pull-to-refresh": {
+   "title": "Tirar para actualizar",
+   "description": "Una lista móvil se estira con resistencia elástica no lineal, se activa al llegar a un umbral, pasa a un indicador de carga acotado y vuelve exactamente al reposo de golpe."
+  },
+  "push-in": {
+   "title": "Acercamiento",
+   "description": "Un titular centrado gana protagonismo con un único empuje de cámara lento y continuo y un suave fundido de salida."
+  },
+  "radial-surround": {
+   "title": "Cerco radial",
+   "description": "Chips etiquetados de línea fina se ensamblan alrededor de un sujeto centrado sobre un anillo elíptico y, opcionalmente, convergen hacia dentro con un sutil oscurecimiento de los bordes. El centro nunca se mueve: rodeado, no ampliado."
+  },
+  "rgb-glitch-text": {
+   "title": "Texto con glitch RGB",
+   "description": "Copias del texto con desplazamiento RGB vibran brevemente durante una ventana de glitch controlada."
+  },
+  "rubber-band-bumper": {
+   "title": "Tope de goma elástica",
+   "description": "Un panel saliente tira contra una resistencia creciente, se mantiene en tensión y luego salta más allá de un borde con sobreimpulso mientras el panel entrante se asienta detrás."
+  },
+  "scan-band": {
+   "title": "Banda de escaneo",
+   "description": "Una banda diagonal de distorsión recorre una sola vez un logotipo de texto limpio y revela desplazamientos recortados en rojo y cian solo dentro de la banda en movimiento."
+  },
+  "scramble-reveal": {
+   "title": "Revelado con barajado",
+   "description": "Un revelado de texto determinista al estilo hacker que recorre filas fijas de glifos y fija la cadena objetivo de izquierda a derecha."
+  },
+  "screen-flow-carousel": {
+   "title": "Carrusel de flujo de pantallas",
+   "description": "De dos a cinco pantallas de app viajan por un raíl horizontal: una principal en el centro y las vecinas replegadas, que avanzan con las señales con un lanzamiento de velocidad acompasada y una captura suave de cola larga mientras un subtítulo mono cambia con cada avance. Las pantallas son huecos con esqueletos por defecto basados en tokens."
+  },
+  "scroll-camera-story": {
+   "title": "Historia con cámara de scroll",
+   "description": "Un pase cinematográfico comprimido de scroll forzado: una escena alta de secciones en huecos pasa ante la cámara de arriba abajo, las capas de profundidad se desplazan con paralaje a distinto ritmo, cada sección sube cuando la cámara llega a ella y el pase decelera hasta una sección final fija."
+  },
+  "scroll-feed": {
+   "title": "Feed con scroll",
+   "description": "Una columna apta para bucle de tarjetas de publicación esqueleto variadas se desplaza hacia arriba con sutiles estelas de movimiento y un ritmo agitado."
+  },
+  "segmentation-flood": {
+   "title": "Inundación de segmentación",
+   "description": "Lectura de visión artificial de un sujeto en un hueco: máscaras de segmentación translúcidas de acento inundan la imagen en pasos de línea de escaneo cuantizados, cada región recibe un fino corchete y un chip de etiqueta mono, un parpadeo determinista de HUD de 2 fotogramas acompaña el pase y la lectura etiquetada se asienta limpia."
+  },
+  "separator": {
+   "title": "Separador",
+   "description": "Un separador estructural de un píxel con variantes horizontal y vertical y un revelado de progreso seguro para búsqueda"
+  },
+  "settings-toggle-flow": {
+   "title": "Flujo de interruptores de ajustes",
+   "description": "Un flujo de ajustes compuesto con filas de preferencias, interruptores y respuesta de estado activo"
+  },
+  "shared-axis-y": {
+   "title": "Eje compartido Y",
+   "description": "Transición vertical de eje compartido por palabras para cambios editoriales nítidos."
+  },
+  "shared-axis-z": {
+   "title": "Eje compartido Z",
+   "description": "Transición de eje compartido basada en escala para cambios de foco y profundidad de contexto."
+  },
+  "sheet-spring-up": {
+   "title": "Hoja con muelle hacia arriba",
+   "description": "Una hoja inferior sube desde debajo del encuadre con un muelle real muestreado fotograma a fotograma de metraje de referencia, sobrepasa su posición de reposo y vuelve a asentarse sin una curva de aceleración aproximada"
+  },
+  "shimmer-sweep": {
+   "title": "Barrido de destello",
+   "description": "Barrido de luz animado sobre texto o elementos mediante una máscara de degradado CSS, ideal para acentos de IA y revelados premium"
+  },
+  "shutter-slam": {
+   "title": "Golpe de obturador",
+   "description": "Una palabra lanzada a través de seis golpes de una sola propiedad bajo un desenfoque de obturador integrado: dos golpes de traslación, un golpe de escala y después un giro completo sobre cada eje, con la curva de aceleración medida de la exportación de After Effects a la que se ajustó el modelo de obturador"
+  },
+  "signup-flow": {
+   "title": "Flujo de registro",
+   "description": "Un flujo de registro compuesto con acción social, campo de correo, campo de contraseña y botón de envío"
+  },
+  "skeleton-reveal": {
+   "title": "Revelado de esqueleto",
+   "description": "Una transición de carga con esqueleto que pulsa y después hace un fundido cruzado hacia el contenido"
+  },
+  "slit-scan-reveal": {
+   "title": "Revelado slit-scan",
+   "description": "Las filas del encuadre muestrean un sujeto creado a tiempos desplazados: un pintor de canvas dibuja franjas de filas de una función de posición pura evaluada en t menos desfase(fila), difuminando la llegada en el tiempo hasta que los desfases se anulan y la marca queda coherente."
+  },
+  "slot-machine-roll": {
+   "title": "Giro de tragaperras",
+   "description": "Un carrete vertical desplaza caracteres de un valor a otro."
+  },
+  "social-proof-card": {
+   "title": "Tarjeta de prueba social",
+   "description": "El cierre de tienda de apps como una escena montable: logotipo de texto, cinco estrellas, una línea de prueba, tres iconos de funciones y una cápsula de llamada a la acción se construyen con un escalonado discreto y se mantienen, medido a partir de metraje de un anuncio de referencia. Para un barrido de estrellas animado usa star-rating-fill; para una tarjeta de cita usa testimonial-proof-card; para un lockup simple usa cta-lockup"
+  },
+  "soft-blob-touch": {
+   "title": "Toque en mancha suave",
+   "description": "Una mancha suave granular está en reposo con una lenta deriva interna; un punto de toque guiado llega frenando, la mancha se deforma hacia él con un abultamiento de atracción y luego se recupera con un muelle que conserva la velocidad. Sin bordes duros en ningún sitio."
+  },
+  "soft-blur-in": {
+   "title": "Entrada con desenfoque suave",
+   "description": "Un revelado suave con opacidad, desenfoque y elevación para titulares, subtítulos y llamadas de interfaz de producto"
+  },
+  "split-tilt-cards": {
+   "title": "Tarjetas divididas con inclinación",
+   "description": "Dos tarjetas de igual peso llegan desde alas opuestas con inclinaciones rotateY especulares como un libro que se abre, bajo una misma perspectiva; insignias en píldora aparecen con muelle en cada borde interior y el par se mantiene con una flotación en reposo casi imperceptible y en oposición de fase. Los cuerpos de las tarjetas son huecos de contenido con esqueletos por defecto basados en tokens."
+  },
+  "spotlight-card": {
+   "title": "Tarjeta con foco",
+   "description": "Una tarjeta con un foco de cursor guiado y un borde iluminado."
+  },
+  "spring-pop": {
+   "title": "Aparición con muelle",
+   "description": "Una insignia aparece desde una escala visible casi en reposo, sobrepasa una vez el tamaño completo y se asienta limpiamente."
+  },
+  "spring-stack-shuffle": {
+   "title": "Barajado de pila con muelle",
+   "description": "Una pila de 3 a 5 tarjetas en huecos se baraja con las señales: la tarjeta de atrás salta por encima y aterriza al frente con masa real, las demás se comprimen y se reasientan; las señales que llegan a mitad de vuelo redirigen las tarjetas en movimiento conservando la velocidad."
+  },
+  "stagger-cascade": {
+   "title": "Cascada escalonada",
+   "description": "Una cuadrícula adaptable de tarjetas que se desvanecen y se desplazan a su sitio con un escalonado GSAP por elemento a intervalos regulares. La cascada ordenada es la única mecánica visual."
+  },
+  "stagger-lattice": {
+   "title": "Retícula escalonada",
+   "description": "Un revelado escalonado de cuadrícula inspirado en las utilidades de escalonado de Anime.js v4, implementado con GSAP para HyperFrames."
+  },
+  "staggered-fade-up": {
+   "title": "Aparición escalonada hacia arriba",
+   "description": "Las palabras aparecen y suben una tras otra con retardo configurable."
+  },
+  "star-rating-fill": {
+   "title": "Relleno de valoración con estrellas",
+   "description": "Una fila de estrellas guiada por tokens cuya capa de color barre hasta una valoración, conserva la fracción de la última estrella y puede contar el valor en sincronía."
+  },
+  "state-chip-rail": {
+   "title": "Raíl de chips de estado",
+   "description": "Un raíl de chips de estado mono hace avanzar una máquina de estados data-state segura para búsqueda según un calendario de señales: el chip activo con tinta sobre superficie, los hechos se atenúan, los pendientes quedan huecos y opcionalmente aparecen insignias junto a un estado."
+  },
+  "sticky-mock-swap": {
+   "title": "Cambio de maqueta fija",
+   "description": "Una maqueta de producto fijada hace fundidos cruzados entre estados de funciones teñidos de acento mientras los subtítulos correspondientes suben, se mantienen y salen a su lado."
+  },
+  "stitched-text-draw": {
+   "title": "Dibujo de texto cosido",
+   "description": "Texto dibujado como puntadas de hilo: un alfabeto de exhibición de trazo único se dibuja mediante dashoffset guiado por atributos con patrones de guiones ajustados a puntadas, variación de ángulo con semilla, puntos de agujero de aguja, una aguja líder y un sobreimpulso de cola de hilo por letra."
+  },
+  "stop-motion-cadence": {
+   "title": "Cadencia de stop motion",
+   "description": "La ley del tiempo escalonado como primitiva de demostración: un controlador cuantiza el tiempo de la línea de tiempo a floor(t * fps) / fps y alimenta TODO el movimiento; cuatro formas de papel recortado basadas en tokens se lanzan y aterrizan con aplastamiento en los impactos, vibración de hervor de 2 fotogramas con semilla por paso y destellos de acento que viven exactamente de 2 a 3 fotogramas."
+  },
+  "store-badge-lockup": {
+   "title": "Lockup de insignias de tienda",
+   "description": "Asienta un titular corto sobre insignias de App Store y Google Play del mismo tamaño como tarjeta de cierre móvil con llamada a la acción guiada por tokens."
+  },
+  "streaming-text": {
+   "title": "Texto en streaming",
+   "description": "Las palabras llegan como se emite una respuesta de IA, en ráfagas irregulares con un ritmo de tokens medido, cada palabra aterriza en gris y se entinta hasta el color completo, en lugar del tictac uniforme de una máquina de escribir"
+  },
+  "strikethrough-replace": {
+   "title": "Tachado y reemplazo",
+   "description": "Dibuja una línea de tachado sobre el texto antiguo y después revela el reemplazo."
+  },
+  "success-check": {
+   "title": "Check de éxito",
+   "description": "Una primitiva de check de éxito con aparición del anillo, trazado del camino y un sutil desenfoque de giro"
+  },
+  "svg-line-draw-loader": {
+   "title": "Cargador de trazado de línea SVG",
+   "description": "Un cargador de dibujo de trazados al estilo Anime.js implementado como una línea de tiempo de trazo GSAP con búsqueda."
+  },
+  "svg-mask-reveal": {
+   "title": "Revelado con máscara SVG",
+   "description": "Un barrido suave del color de los tokens revela contenido multimedia solo a través de una máscara de logotipo de texto SVG editable."
+  },
+  "svg-stroke-trace": {
+   "title": "Trazado de contorno SVG",
+   "description": "Un trazado SVG creado se dibuja a partir de su longitud medida, se mantiene con una sutil deriva y, opcionalmente, se rellena cuando el trazado está cerrado."
+  },
+  "swipe-rail": {
+   "title": "Raíl con deslizamiento",
+   "description": "Un círculo de contacto guía un raíl horizontal de tarjetas mediante un arrastre rápido, un avance por inercia y un ajuste asentado a la siguiente tarjeta."
+  },
+  "tabs-slide-indicator": {
+   "title": "Indicador deslizante de pestañas",
+   "description": "Una transición de indicador en píldora que se desliza entre las pestañas activas"
+  },
+  "telemetry-hud": {
+   "title": "HUD de telemetría",
+   "description": "Lecturas mono discretas de HUD de depuración enmarcan un sujeto en un hueco: se dibujan corchetes en las esquinas, las líneas etiqueta:valor actualizan sus valores con las señales y una lectura se resalta en acento. El sujeto nunca se mueve; el HUD no respira."
+  },
+  "terminal-simulator": {
+   "title": "Simulador de terminal",
+   "description": "Una ventana de terminal escribe comandos y emite salida de registro en streaming."
+  },
+  "testimonial-card": {
+   "title": "Tarjeta de testimonio",
+   "description": "Revela la cita de un cliente a ritmo de lectura y después asienta debajo su avatar, nombre de autor y usuario como un limpio momento de prueba."
+  },
+  "testimonial-proof-card": {
+   "title": "Tarjeta de prueba con testimonio",
+   "description": "Una tarjeta de cita cuyo testimonio se revela línea a línea a través de una máscara suave, con un disco de avatar (iniciales por defecto, hueco para imagen), nombre y cargo en mono, una marca de texto de empresa opcional y una subcadena de énfasis subrayada con tinta de acento después de que la cita aterriza."
+  },
+  "text-match-cut": {
+   "title": "Corte de coincidencia de texto",
+   "description": "Una línea de texto se convierte en otra a mitad de movimiento: ambas siguen una única curva easy-ease al 85 % y cambian de golpe en el pico de velocidad, mediante escala, espaciado o un deslizamiento en la misma dirección."
+  },
+  "text-shimmer": {
+   "title": "Destello de texto",
+   "description": "Un titular estático recibe un único barrido limpio de degradado especular a través de sus glifos y después vuelve a su color de texto normal."
+  },
+  "text-stagger": {
+   "title": "Escalonado de texto",
+   "description": "Una primitiva de texto escalonado inspirada en transitions.dev con palabras de entrada, destello y listas para salir"
+  },
+  "text-state-swap": {
+   "title": "Cambio de estado de texto",
+   "description": "Una primitiva de cambio de estado de texto con desenfoque saliente y elevación entrante"
+  },
+  "texture-mask-text": {
+   "title": "Texto con máscara de textura",
+   "description": "Máscaras de luminancia CSS que recortan agujeros en las formas de las letras: 66 máscaras de textura predefinidas a partir de mapas de color PBR de ambientCG"
+  },
+  "three-orbiting-cards": {
+   "title": "Tres tarjetas en órbita",
+   "description": "Una escena orbital con Three.js controlada por una línea de tiempo GSAP en pausa para renders deterministas."
+  },
+  "ticker-takeover": {
+   "title": "Ticker que toma el encuadre",
+   "description": "Un ticker mono recorre opciones, se fija en una palabra final con un destello de acento y la promueve a titular a pantalla completa."
+  },
+  "tilt-card": {
+   "title": "Tarjeta con inclinación",
+   "description": "Una primitiva de tarjeta con inclinación inspirada en transitions.dev con capas de profundidad y paralaje al estilo hover"
+  },
+  "titlecard-calm": {
+   "title": "Tarjeta de título serena",
+   "description": "Una tarjeta de título contenida donde un antetítulo mono y un generoso titular grotesco aparecen hacia arriba, derivan de forma casi imperceptible y salen limpiamente."
+  },
+  "titlecard-lockup": {
+   "title": "Tarjeta de título con lockup",
+   "description": "La tarjeta de título de pausa serena: un antetítulo mono opcional aparece hacia arriba, el logotipo de texto se asienta justo en el centro con un único movimiento contenido, una línea fina se dibuja de izquierda a derecha, una etiqueta mono aparece debajo y el lockup se mantiene completamente quieto."
+  },
+  "toggle-flip": {
+   "title": "Giro de interruptor",
+   "description": "Un interruptor de interfaz sobredimensionado que cambia con auténtica fisicidad: sobreimpulso del pulgar, fundido cruzado del color del carril y una suave compresión de pulsación antes de soltar. El prop de referencia de la familia ui-props."
+  },
+  "top-down-letters": {
+   "title": "Letras de arriba abajo",
+   "description": "Las letras descienden desde arriba en una escalera pronunciada sin desenfoque."
+  },
+  "touch-indicator": {
+   "title": "Indicador de toque",
+   "description": "Un actor de gesto de círculo de contacto translúcido para escenas de interfaz móvil: toca el cristal en el fotograma en que responde el objetivo anfitrión y luego se levanta. Toque o deslizamiento, según una variable."
+  },
+  "tracing-beam": {
+   "title": "Haz trazador",
+   "description": "Un guion luminoso sigue un único trazado SVG a través de tres elementos de interfaz, elevando e iluminando cada elemento en secuencia."
+  },
+  "tracking-in": {
+   "title": "Entrada por espaciado",
+   "description": "Un revelado preciso por espaciado entre letras para encabezados premium y etiquetas de interfaz"
+  },
+  "trust-strip": {
+   "title": "Franja de confianza",
+   "description": "Una fila monocroma de confianza con logotipos de texto mono de amplio espaciado que aparecen con un escalonado de izquierda a derecha solo de opacidad y después se mantienen completamente quietos."
+  },
+  "type-match-cut": {
+   "title": "Corte de coincidencia tipográfica",
+   "description": "Un titular se divide verticalmente alrededor de un panel entrante, que crece desde el espacio negativo y ocupa el encuadre mientras las palabras salen por bordes opuestos."
+  },
+  "typed-prompt": {
+   "title": "Prompt escrito",
+   "description": "Una línea de prompt se escribe sola con cadencia humana por fragmentos tras un cursor parpadeante determinista, con corrección opcional de borrar y reescribir la última palabra."
+  },
+  "typewriter": {
+   "title": "Máquina de escribir",
+   "description": "Revelado de texto carácter a carácter con un cursor parpadeante determinista."
+  },
+  "typing-indicator": {
+   "title": "Indicador de escritura",
+   "description": "La burbuja de chat de tres puntos que indica que alguien está escribiendo: aparece al borde del hilo exactamente como en las apps de mensajería, se mantiene mientras llega la respuesta y desaparece cuando aterriza el mensaje"
+  },
+  "ui-focus-zoom": {
+   "title": "Zoom de foco en interfaz",
+   "description": "Una superficie completa de app se establece con un solo asentamiento y después la cámara hace zoom y desplazamiento a una región anclada con su señal y mantiene el estado ampliado, con un suave halo de foco opcional en el ancla. La superficie es un hueco con un esqueleto por defecto estilizado con tokens."
+  },
+  "variable-axis-type": {
+   "title": "Tipografía de eje variable",
+   "description": "Un titular fijo de una línea cuyo eje de peso o de anchura se transforma en un momento de énfasis decisivo."
+  },
+  "variable-font-flex": {
+   "title": "Flexión de fuente variable",
+   "description": "Una palabra aterriza mientras sus ejes de peso y anchura de fuente variable se flexionan de hairline-condensed a black-wide con escalonado por carácter; el tamaño de fuente varía de forma inversa con curva de aceleración para que las letras ganen masa mientras la caja se mantiene."
+  },
+  "vector-editor-rig": {
+   "title": "Montaje de editor vectorial",
+   "description": "Un marco oscuro de app de herramienta de diseño con un trazado de pluma vectorial en vivo, puntos de anclaje secuenciales, manejadores bézier, un marco de selección y acentos azules guiados por el tema."
+  },
+  "velocity-throw-snap": {
+   "title": "Lanzamiento por velocidad con ajuste",
+   "description": "Un raíl de cinco planos pasa a toda velocidad con una curva de decaimiento rápido y después sobrepasa y ajusta el plano héroe seleccionado exactamente al centro."
+  },
+  "vignette": {
+   "title": "Viñeta",
+   "description": "Superposición cinematográfica de viñeta radial con un degradado CSS puro: oscurece los bordes para llevar el foco hacia el centro"
+  },
+  "vox-annotate": {
+   "title": "Anotación estilo Vox",
+   "description": "El gesto de anotación al estilo Vox: una palabra clave de una frase mantenida recibe un marcador dibujado a mano mientras un conector fino se dibuja hasta una etiqueta de llamada mono, todo como un único momento coreografiado con la señal."
+  },
+  "whip-pan-cut": {
+   "title": "Corte con barrido de cámara",
+   "description": "Un barrido de cámara a pantalla completa: la escena A sale lateralmente con desenfoque de movimiento direccional limitado mientras la escena B entra en la misma dirección a velocidad igualada, con un perfil de rampa de velocidad y una captura con deceleración. Ambas escenas viajan en una sola tira, así que la velocidad de la unión es exacta por construcción. Quien llama rellena los paneles de hueco before/after con nombre; cuando un hueco queda vacío se renderizan valores por defecto basados en tokens."
+  },
+  "whiteboard-ink": {
+   "title": "Tinta de pizarra",
+   "description": "Un boceto de pizarra dibuja un trazo medido cada vez mientras una punta de rotulador sigue el extremo activo. Bocetos predefinidos (bulb, flow, rocket) o tus propios trazados SVG de varios trazos mediante el hueco strokes; un trazado marcado con data-ink=accent usa el token de acento."
+  },
+  "wordmark-tiles": {
+   "title": "Teselas de logotipo",
+   "description": "Un logotipo de texto se resuelve desde ruido de color determinista en teselas de glifos correctamente recortadas mediante una onda GSAP modulada espacialmente."
+  },
+  "x-follow-card": {
+   "title": "Tarjeta de seguir en X",
+   "description": "Una tarjeta social de seguir con avatar, usuario y movimiento de seguidores."
+  },
+  "yt-camera-move": {
+   "title": "Acercamiento brusco de cámara",
+   "description": "Ayudantes de zoom dinámico, deslizamiento e inclinación-panorámica 3D para cualquier contenedor (vídeo, include, tarjeta) con curvas cúbicas por defecto y una superposición de pulso de desenfoque en los bordes"
+  },
+  "yt-circle-pointer": {
+   "title": "Círculo señalador + cuenta atrás",
+   "description": "Elipse de anotación que se dibuja alrededor de un objetivo, más un chip de cuenta atrás que pulsa en cada tic"
+  },
+  "yt-feather-highlight": {
+   "title": "Foco con bordes difuminados",
+   "description": "Atenúa el encuadre salvo una elipse difuminada; la posición y el tamaño del hueco son variables CSS, así que los ayudantes deslizan el foco entre objetivos"
+  },
+  "yt-screen-warp": {
+   "title": "Efecto de pantalla",
+   "description": "Superposición de cuadrícula, líneas de escaneo, viñeta y brillo, más una clase contenedora de deformación 3D que hace que el metraje parezca reproducirse en una pantalla física"
+  },
+  "zoom-through-transition": {
+   "title": "Transición de zoom a través",
+   "description": "Una transición que hace zoom a través de una tarjeta focal hacia la siguiente escena."
+  }
+ },
+ "tags": {
+  "3d": "3D",
+  "3d-motion": "movimiento 3D",
+  "accent": "acento",
+  "actor": "actor",
+  "ad-template": "plantilla de anuncio",
+  "advanced-motion": "movimiento avanzado",
+  "after-effects": "After Effects",
+  "agitate": "agitar",
+  "agitation": "agitación",
+  "ai": "IA",
+  "ambient": "ambiental",
+  "animation": "animación",
+  "anime-inspired": "estilo anime",
+  "annotation": "anotación",
+  "app": "app",
+  "app-chrome": "marco de app",
+  "apple": "Apple",
+  "apple-terminal": "terminal de Apple",
+  "arcs": "arcos",
+  "arrival": "llegada",
+  "arrow": "flecha",
+  "ascii": "ASCII",
+  "ask": "pregunta",
+  "assemble": "ensamblar",
+  "attention": "atención",
+  "aurora": "aurora",
+  "auto-rotate": "giro automático",
+  "avatar": "avatar",
+  "avatars": "avatares",
+  "axis": "eje",
+  "background": "fondo",
+  "badge": "insignia",
+  "bars": "barras",
+  "beam": "haz de luz",
+  "beat": "pulso",
+  "beat-driven": "guiado por ritmo",
+  "before-after": "antes y después",
+  "bezier": "Bézier",
+  "blend-mode": "modo de fusión",
+  "blender-motion": "movimiento Blender",
+  "blob": "mancha orgánica",
+  "blur": "desenfoque",
+  "blur-in": "entrada con desenfoque",
+  "boil": "ebullición",
+  "bold": "negrita",
+  "book-open": "libro abierto",
+  "border": "borde",
+  "brand": "marca",
+  "branding": "identidad de marca",
+  "breather": "pausa",
+  "bridge": "puente",
+  "broadcast": "emisión",
+  "browser": "navegador",
+  "bubble": "burbuja",
+  "burst": "estallido",
+  "callout": "llamada",
+  "calm": "calma",
+  "camcorder": "videocámara",
+  "camera": "cámara",
+  "camera-orbit": "órbita de cámara",
+  "canvas": "canvas",
+  "caption": "subtítulo",
+  "caption-style": "estilo de subtítulos",
+  "captions": "subtítulos",
+  "card": "tarjeta",
+  "cards": "tarjetas",
+  "carousel": "carrusel",
+  "celebration": "celebración",
+  "character": "personaje",
+  "character-animation": "animación de personajes",
+  "chart": "gráfico",
+  "chat": "chat",
+  "check": "verificación",
+  "checklist": "lista de comprobación",
+  "chips": "chips",
+  "choropleth": "coropleta",
+  "chromatic": "cromático",
+  "chrome": "Chrome",
+  "cinematic": "cinematográfico",
+  "circle": "círculo",
+  "circle-reveal": "revelado circular",
+  "cities": "ciudades",
+  "clip-path": "trazado de recorte",
+  "close": "cerrar",
+  "code": "código",
+  "code-animation": "animación de código",
+  "collaboration": "colaboración",
+  "color-grading": "etalonaje",
+  "colorama": "Colorama",
+  "colorful": "colorido",
+  "comments": "comentarios",
+  "community": "comunidad",
+  "compare": "comparar",
+  "comparison": "comparación",
+  "completion": "finalización",
+  "condense": "condensar",
+  "conic-gradient": "degradado cónico",
+  "connections": "conexiones",
+  "connector": "conector",
+  "continuity": "continuidad",
+  "contrast": "contraste",
+  "converge": "converger",
+  "conversation": "conversación",
+  "countdown": "cuenta atrás",
+  "counter": "contador",
+  "craft": "artesanal",
+  "creator": "creador",
+  "cross-shelved": "estantes cruzados",
+  "crossfade": "fundido cruzado",
+  "cta": "llamada a la acción",
+  "cursor": "cursor",
+  "cutout": "recorte",
+  "cyber": "cibernético",
+  "dark": "oscuro",
+  "data": "datos",
+  "data-viz": "visualización de datos",
+  "decline": "descenso",
+  "decode": "decodificar",
+  "demonstrate": "demostrar",
+  "departure-board": "panel de salidas",
+  "depth": "profundidad",
+  "depth-of-field": "profundidad de campo",
+  "design-tool": "herramienta de diseño",
+  "desktop": "escritorio",
+  "deterministic": "determinista",
+  "developer": "desarrollador",
+  "device": "dispositivo",
+  "diagram": "diagrama",
+  "diff": "diferencias",
+  "directional-cut": "corte direccional",
+  "displacement": "desplazamiento",
+  "dissolve": "disolución",
+  "distortion": "distorsión",
+  "dither": "tramado",
+  "donut": "anillo",
+  "dots": "puntos",
+  "drift": "deriva",
+  "drop": "caída",
+  "ease": "suavizado",
+  "editorial": "editorial",
+  "effect": "efecto",
+  "effects": "efectos",
+  "emoji": "emoji",
+  "emphasis": "énfasis",
+  "emphasize": "enfatizar",
+  "end-card": "tarjeta final",
+  "entrance": "entrada",
+  "europe": "Europa",
+  "exhibit": "exposición",
+  "exit": "salida",
+  "experiment": "experimento",
+  "explainer": "explicativo",
+  "fade": "fundido",
+  "feature-reveal": "revelado de función",
+  "feature-tour": "recorrido de funciones",
+  "features": "funciones",
+  "feed": "feed",
+  "feedback": "respuesta",
+  "fill": "relleno",
+  "film": "película",
+  "finance": "finanzas",
+  "flash": "destello",
+  "flip": "giro",
+  "flow": "flujo",
+  "flowchart": "diagrama de flujo",
+  "focus": "enfoque",
+  "focus-rack": "cambio de foco",
+  "fog": "niebla",
+  "form": "formulario",
+  "fractional": "fraccional",
+  "frame": "fotograma",
+  "freeze-frame": "imagen congelada",
+  "frost": "escarcha",
+  "gallery": "galería",
+  "gaming": "videojuegos",
+  "gauge": "indicador",
+  "geography": "geografía",
+  "gesture": "gesto",
+  "ghosts": "fantasmas",
+  "glass": "cristal",
+  "glitch": "glitch",
+  "gloss": "brillo",
+  "glow": "resplandor",
+  "gltf": "glTF",
+  "gooey": "viscoso",
+  "gpu": "GPU",
+  "grade": "graduación",
+  "gradient": "degradado",
+  "grain": "grano",
+  "graph": "grafo",
+  "grid": "cuadrícula",
+  "gsap-plugin": "plugin de GSAP",
+  "halftone": "semitono",
+  "handheld": "cámara en mano",
+  "handwritten": "manuscrito",
+  "hard-cut": "corte seco",
+  "hdr": "HDR",
+  "headline": "titular",
+  "hero": "portada",
+  "hexgrid": "cuadrícula hexagonal",
+  "highlight": "resaltado",
+  "hold": "mantener",
+  "holdable": "mantenible",
+  "hover": "hover",
+  "html-in-canvas": "HTML en canvas",
+  "hub": "nodo central",
+  "hud": "HUD",
+  "hyperframes-native": "nativo de HyperFrames",
+  "ice": "hielo",
+  "icon": "icono",
+  "images": "imágenes",
+  "impact": "impacto",
+  "indicator": "indicador",
+  "input": "campo de entrada",
+  "instagram": "Instagram",
+  "instrument": "instrumento",
+  "interaction": "interacción",
+  "interactive": "interactivo",
+  "interruptible-spring": "muelle interrumpible",
+  "interview": "entrevista",
+  "intro": "introducción",
+  "intros-reveals": "introducciones y revelados",
+  "inversion": "inversión",
+  "ios26": "iOS 26",
+  "iphone": "iPhone",
+  "iris": "iris",
+  "karaoke": "karaoke",
+  "kinetic": "cinético",
+  "kinetic-text": "texto cinético",
+  "kinetic-type": "tipografía cinética",
+  "layout": "maquetación",
+  "leaves": "hojas",
+  "letters": "letras",
+  "light": "luz",
+  "light-leak": "fuga de luz",
+  "line": "línea",
+  "line-draw": "trazado de línea",
+  "liquid": "líquido",
+  "liquid-glass-html-in-canvas": "cristal líquido en canvas",
+  "list": "lista",
+  "lockup": "composición de logo",
+  "logo": "logotipo",
+  "logo-strip": "tira de logotipos",
+  "logos": "logotipos",
+  "loop": "bucle",
+  "loopable": "en bucle",
+  "lottie": "Lottie",
+  "low-poly": "low poly",
+  "lower-third": "rótulo inferior",
+  "macbook": "MacBook",
+  "macos": "macOS",
+  "map": "mapa",
+  "marker": "marcador",
+  "mascot": "mascota",
+  "mask": "máscara",
+  "match-cut": "corte por coincidencia",
+  "material": "material",
+  "matrix": "matriz",
+  "mechanical": "mecánico",
+  "media": "multimedia",
+  "media-treatment-overlay": "capa de tratamiento",
+  "memory": "memoria",
+  "menu": "menú",
+  "message": "mensaje",
+  "messages": "mensajes",
+  "metric": "métrica",
+  "microinteraction": "microinteracción",
+  "minimal": "minimalista",
+  "mobile": "móvil",
+  "mock": "maqueta",
+  "mock-ui": "interfaz simulada",
+  "modal": "modal",
+  "momentum": "inercia",
+  "morph": "morfosis",
+  "motion": "movimiento",
+  "motion-blur": "desenfoque de movimiento",
+  "motion-primitive": "primitiva de movimiento",
+  "motionpath": "trayectoria de movimiento",
+  "multiplayer": "multijugador",
+  "music": "música",
+  "neon": "neón",
+  "network": "red",
+  "news": "noticias",
+  "nodes": "nodos",
+  "notes": "notas",
+  "notification": "notificación",
+  "notifications": "notificaciones",
+  "number": "número",
+  "onboarding": "incorporación",
+  "onion-skin": "papel cebolla",
+  "optical": "óptico",
+  "orbit": "órbita",
+  "orchestration": "orquestación",
+  "organic": "orgánico",
+  "orient": "orientar",
+  "outline": "contorno",
+  "outro": "cierre",
+  "overlay": "superposición",
+  "overload": "sobrecarga",
+  "overshoot": "sobreimpulso",
+  "overwhelm": "abrumar",
+  "page": "página",
+  "pan": "paneo",
+  "panel": "panel",
+  "paper": "papel",
+  "parallax": "paralaje",
+  "particles": "partículas",
+  "path": "trazado",
+  "payoff": "resolución",
+  "pbr": "PBR",
+  "pen-tool": "herramienta pluma",
+  "phone": "teléfono",
+  "phrase-swap": "cambio de frase",
+  "physics": "física",
+  "pileup": "acumulación",
+  "pill": "píldora",
+  "pixelate": "pixelado",
+  "placeholder": "marcador de posición",
+  "podcast": "pódcast",
+  "pointer": "puntero",
+  "pointers": "punteros",
+  "pointing": "señalar",
+  "pop": "aparición brusca",
+  "portal": "portal",
+  "portrait": "retrato",
+  "post-processing": "posprocesado",
+  "presence": "presencia",
+  "presentation": "presentación",
+  "press": "pulsación",
+  "pressure": "presión",
+  "problem": "problema",
+  "problem-setup": "planteamiento del problema",
+  "product-demo": "demo de producto",
+  "professional": "profesional",
+  "progress": "progreso",
+  "promotion": "promoción",
+  "prompt": "prompt",
+  "proof": "prueba",
+  "prop": "elemento de escena",
+  "prove": "demostrar",
+  "pull-back": "alejamiento",
+  "pulse": "pulso",
+  "puppet": "marioneta",
+  "push-in": "acercamiento",
+  "qr": "QR",
+  "quantize": "cuantizar",
+  "quote": "cita",
+  "radial": "radial",
+  "rail": "carril",
+  "ranking": "clasificación",
+  "raster": "ráster",
+  "rating": "valoración",
+  "reactive": "reactivo",
+  "recognition": "reconocimiento",
+  "recontextualize": "recontextualizar",
+  "recording": "grabación",
+  "reddit": "Reddit",
+  "refactor": "refactorización",
+  "reference-prop": "elemento de referencia",
+  "refresh": "actualizar",
+  "remocn-port": "port de Remocn",
+  "reshape": "remodelar",
+  "resistance": "resistencia",
+  "retro": "retro",
+  "reveal": "revelado",
+  "rhythmic": "rítmico",
+  "ring": "anillo",
+  "ripple": "onda",
+  "room-environment": "entorno de sala",
+  "rubber-band": "efecto elástico",
+  "saas": "SaaS",
+  "scale-in": "entrada con escala",
+  "scan": "escaneo",
+  "scatter": "dispersión",
+  "scene": "escena",
+  "scramble": "mezcla de letras",
+  "scrapbook": "álbum de recortes",
+  "screens": "pantallas",
+  "scroll": "desplazamiento",
+  "sections": "secciones",
+  "separator": "separador",
+  "sequencing": "secuenciación",
+  "servo": "servo",
+  "settings": "ajustes",
+  "sfx": "efectos de sonido",
+  "shader": "shader",
+  "shadows": "sombras",
+  "shake": "sacudida",
+  "shards": "fragmentos",
+  "share-sheet": "hoja de compartir",
+  "shared-element": "elemento compartido",
+  "sheet": "hoja",
+  "shimmer": "destello suave",
+  "showcase": "escaparate",
+  "shutter": "obturador",
+  "signup": "registro",
+  "skeleton": "esqueleto de carga",
+  "slam": "golpe",
+  "slide": "deslizamiento",
+  "slide-in": "entrada deslizante",
+  "slit-scan": "slit-scan",
+  "slot": "ranura",
+  "slot-machine": "tragaperras",
+  "slots": "ranuras",
+  "snap": "ajuste brusco",
+  "social": "social",
+  "social-overlay": "superposición social",
+  "social-proof": "prueba social",
+  "solari": "panel Solari",
+  "space": "espacio",
+  "spain": "España",
+  "specular": "especular",
+  "speech-bubble": "bocadillo",
+  "speed-ramp": "rampa de velocidad",
+  "sphere": "esfera",
+  "splay": "abanico",
+  "split-flap": "panel de lamas",
+  "split-screen": "pantalla dividida",
+  "spotify": "Spotify",
+  "spotlight": "foco",
+  "spring": "muelle",
+  "stack": "pila",
+  "stage": "escenario",
+  "stagger": "escalonado",
+  "stars": "estrellas",
+  "stat": "dato",
+  "state-change": "cambio de estado",
+  "state-machine": "máquina de estados",
+  "stations": "estaciones",
+  "statistics": "estadísticas",
+  "stats": "estadísticas",
+  "status": "estado",
+  "stepped": "por pasos",
+  "stepper": "selector numérico",
+  "steps": "pasos",
+  "sticky": "fijo",
+  "sting": "sting",
+  "stitch": "unión",
+  "stop-motion": "stop motion",
+  "store-badges": "insignias de tiendas",
+  "story": "historia",
+  "stroke": "trazo",
+  "structure": "estructura",
+  "success": "éxito",
+  "surround": "envolvente",
+  "svg": "SVG",
+  "svg-filter": "filtro SVG",
+  "swap": "intercambio",
+  "sweep": "barrido",
+  "swipe": "deslizar",
+  "tablet": "tableta",
+  "tabs": "pestañas",
+  "tahoe": "Tahoe",
+  "tap": "toque",
+  "tech": "tecnología",
+  "telemetry": "telemetría",
+  "terminal": "terminal",
+  "testimonial": "testimonio",
+  "text": "texto",
+  "text-effect": "efecto de texto",
+  "text-effects": "efectos de texto",
+  "text-treatment": "tratamiento de texto",
+  "texture": "textura",
+  "three-js": "Three.js",
+  "throw": "lanzamiento",
+  "ticker": "teletipo",
+  "tiktok": "TikTok",
+  "tilegrid": "cuadrícula de teselas",
+  "tiles": "teselas",
+  "tilt": "inclinación",
+  "time": "tiempo",
+  "time-law": "ley de tiempo",
+  "timeline": "línea de tiempo",
+  "title": "título",
+  "title-card": "tarjeta de título",
+  "toggle": "interruptor",
+  "toss": "lanzar",
+  "touch": "tacto",
+  "trail": "estela",
+  "transition": "transición",
+  "transition-primitive": "primitiva de transición",
+  "transitions": "transiciones",
+  "transitions-dev-port": "port de Transitions.dev",
+  "travel": "viaje",
+  "traveler": "viajero",
+  "travelling-wave": "onda viajera",
+  "trust": "confianza",
+  "tutorial": "tutorial",
+  "twitter": "Twitter",
+  "two-headlines": "dos titulares",
+  "type": "tipografía",
+  "typing": "mecanografiado",
+  "typography": "tipografía",
+  "ui": "interfaz",
+  "ui-flow": "flujo de interfaz",
+  "ui-props": "elementos de interfaz",
+  "unzoom": "alejar zoom",
+  "usa": "EE. UU.",
+  "variable-font": "fuente variable",
+  "vector": "vector",
+  "velocity": "velocidad",
+  "velocity-match": "ajuste de velocidad",
+  "vertical": "vertical",
+  "vfx": "VFX",
+  "video-primitive": "primitiva de vídeo",
+  "vignette": "viñeta",
+  "vision": "visión",
+  "voronoi": "Voronoi",
+  "vscode": "VS Code",
+  "walk-cycle": "ciclo de caminar",
+  "webgl": "WebGL",
+  "webgl2": "WebGL 2",
+  "webgpu": "WebGPU",
+  "whip": "latigazo",
+  "whip-pan": "paneo latigazo",
+  "whiteboard": "pizarra",
+  "wipe": "barrido",
+  "wireframe": "estructura alámbrica",
+  "word-swap": "cambio de palabra",
+  "wordmark": "marca tipográfica",
+  "wordmarks": "marcas tipográficas",
+  "world": "mundo",
+  "write-on": "escritura progresiva",
+  "youtube": "YouTube",
+  "zoom": "zoom"
+ }
+}

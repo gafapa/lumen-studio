@@ -1,0 +1,20 @@
+{
+  "_comment": "Umbrales de tiempo, legibilidad y ritmo compartidos por la inspección de escenas (server/inspect.mjs), la revisión final y la referencia de estilo. Adaptados de Showtime (github.com/FavioVazquez/showtime, runtime/thresholds.json y references/pacing.md, motion-craft.md), revisados en octubre de 2026. Cámbialos solo aquí.",
+  "still_hold_s": 2.5,
+  "final_hold_max_s": 4.0,
+  "min_contrast": 4.5,
+  "contrast_min_height_frac": 0.01,
+  "tiny_text_frac": 0.022,
+  "phone_width_pt": 390,
+  "phone_min_pt": {"portrait": 15, "square": 10, "landscape": 5},
+  "reading_lead_s": 0.3,
+  "reading_min_s": 1.0,
+  "reading": {"cps": 17, "wps": 3.0},
+  "same_frame_entrance_min": 3,
+  "label_overlap_frac": 0.15,
+  "settle_px": 2,
+  "first_motion_max_s": 0.5,
+  "stagger_group_max_s": 0.6,
+  "sample_step_s": 0.1,
+  "still_diff_threshold": 0.004
+}

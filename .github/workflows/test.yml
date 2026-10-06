@@ -1,0 +1,77 @@
+name: Pruebas
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: test-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: Backend (node --test)
+    runs-on: windows-latest
+    timeout-minutes: 60
+    env:
+      LUMEN_MANIM_LIB: ${{ github.workspace }}\.tools\manim-lib
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Dependencias
+        run: npm ci
+      - name: Skills oficiales de HyperFrames y Remotion
+        run: node scripts/update-vendor-skills.mjs
+      - name: Navegadores de render
+        run: |
+          npx playwright install chromium
+          npx remotion browser ensure
+      - name: Manim
+        shell: pwsh
+        run: |
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install --target "$env:LUMEN_MANIM_LIB" --prefer-binary 'manim==0.21.0'
+          "LUMEN_PYTHON=$((Get-Command python).Source)" >> $env:GITHUB_ENV
+      - name: Pruebas
+        run: npm test
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: backend-logs
+          path: |
+            test-results/
+            *.log
+          if-no-files-found: ignore
+
+  ui:
+    name: Interfaz (Playwright)
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Skills oficiales
+        run: node scripts/update-vendor-skills.mjs
+      - run: npx playwright install chromium
+      - run: npm run build
+      - run: npm run test:ui
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore

@@ -1,0 +1,34 @@
+.ai-wrap{position:relative;display:inline-flex}
+.ai-button{display:inline-flex;align-items:center;gap:4px;border:1px solid #e3d6fb;background:linear-gradient(135deg,#f6f0ff,#fdf9ff);color:#7957df;border-radius:20px;padding:3px 9px;font-size:10px;font-weight:600;cursor:pointer;line-height:1.4}
+.ai-button:hover{background:#eee5ff}
+.ai-label{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.ai-field{display:flex;flex-direction:column;gap:6px;position:relative}
+.ai-pop{position:fixed;z-index:1000;overflow:auto;box-sizing:border-box;background:#fff;border:1px solid #e3d6fb;border-radius:14px;box-shadow:0 18px 40px #2f1f6526;padding:14px;display:flex;flex-direction:column;gap:10px;font-weight:400;color:#302654;text-align:left}
+.ai-pop-head{display:flex;justify-content:space-between;align-items:center}
+.ai-pop-head strong{display:flex;align-items:center;gap:6px;font-size:13px}
+.ai-instruction{display:flex;gap:8px}
+.ai-instruction input{flex:1;margin:0!important}
+.ai-results{display:flex;flex-direction:column;gap:8px}
+.ai-results article{border:1px solid #efe8f8;border-radius:10px;padding:10px;display:flex;flex-direction:column;gap:8px}
+.ai-results article p{margin:0;font-size:12px;line-height:1.6;white-space:pre-wrap}
+.ai-results article div{display:flex;gap:8px}
+.ai-palette{flex-direction:row!important;align-items:center}
+.ai-palette span{display:flex;border-radius:8px;overflow:hidden}
+.ai-palette i{width:26px;height:26px;display:block}
+.ai-palette strong{flex:1;font-size:12px}
+.activity-feed{list-style:none;margin:0;padding:10px 12px;background:#faf8ff;border-radius:10px;display:flex;flex-direction:column;gap:5px;font-size:12px;color:#5d5175}
+.activity-feed li{display:flex;align-items:center;gap:6px}
+.activity-feed .hidden{visibility:hidden}
+.activity-line{display:flex;align-items:center;gap:6px}
+.copilot{border:1px solid #e3d6fb;background:linear-gradient(135deg,#faf6ff,#ffffff);border-radius:16px;padding:12px;margin:14px 0;display:flex;flex-direction:column;gap:10px}
+.copilot-input{display:flex;align-items:center;gap:10px;color:#7957df}
+.copilot-input input{flex:1;margin:0!important;border:0!important;background:transparent!important;font-size:14px}
+.copilot-proposal{border-top:1px solid #efe8f8;padding-top:10px;display:flex;flex-direction:column;gap:8px;font-size:13px}
+.copilot-proposal ul{margin:0;padding-left:0;list-style:none;display:flex;flex-direction:column;gap:4px}
+.copilot-proposal li span{display:inline-block;min-width:150px;color:#7957df;font-weight:600}
+.copilot-questions p{margin:0;color:#8a5a1f}
+.spin{animation:spin 1s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.save-status{display:inline-flex;align-items:center;gap:5px;font-size:11px;color:#9184a6;font-weight:400}
+.save-status.saved{color:#2f8a5b}.save-status.error{color:#c0392b}.save-status.saving{color:#7957df}
+.panel-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}

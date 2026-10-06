@@ -1,0 +1,20 @@
+import {randomUUID} from 'node:crypto';
+import {mkdir,copyFile} from 'node:fs/promises';
+import path from 'node:path';
+export async function shareLibrary(store,harness,projectId,{kind,id,name,tags=[]}){const project=store.get(projectId);if(!project)throw new Error('Proyecto inexistente.');if(!['source','asset','style'].includes(kind)||!Array.isArray(tags)||tags.length>30||tags.some(tag=>typeof tag!=='string'||tag.length>100))throw new Error('Recurso compartido inválido.');const entry={id:randomUUID(),kind,name:String(name||project.title).slice(0,200),tags,originProjectId:projectId,createdAt:new Date().toISOString()};if(kind==='source'){const source=project.sources.find((source,index)=>(source.id||`source-${index+1}`)===id);if(!source)throw new Error('Fuente inexistente.');entry.source={name:source.name,content:source.content};}else if(kind==='asset'){const asset=project.assets?.find(asset=>asset.id===id);if(!asset)throw new Error('Recurso inexistente.');const directory=path.join(store.root,'library',entry.id);await mkdir(directory,{recursive:true});const absolute=path.resolve(harness.folder(projectId),asset.path);if(!absolute.startsWith(harness.folder(projectId)+path.sep))throw new Error('Ruta de recurso inválida.');await copyFile(absolute,path.join(directory,path.basename(asset.path)));entry.asset={...asset,path:path.relative(store.root,path.join(directory,path.basename(asset.path)))};}else{entry.profile=structuredClone(project.profile||{});entry.style=project.style;}return store.putEntry('library_entries',entry);}
+export async function reuseLibrary(store,harness,projectId,entryId){if(harness.active.has(projectId))throw new Error('Detén la producción antes de importar.');const entry=store.entry('library_entries',entryId),project=store.get(projectId);if(!entry||!project)throw new Error('Proyecto o recurso inexistente.');store.snapshot(project,'Antes de reutilizar biblioteca');if(entry.kind==='source')return harness.sources(projectId,[...project.sources,{...entry.source}]);if(entry.kind==='style')return harness.configure(projectId,{style:entry.style,profile:{...entry.profile,logoAssetId:null,musicAssetId:null}});if(entry.kind==='asset'){const asset={...entry.asset,id:randomUUID(),path:`media/library-${randomUUID()}${path.extname(entry.asset.path)}`,origin:'library'};await mkdir(path.join(harness.folder(projectId),'media'),{recursive:true});await copyFile(path.join(store.root,entry.asset.path),path.join(harness.folder(projectId),asset.path));project.assets||=[];project.assets.push(asset);}store.save(project);await harness.export(projectId);return project;}
+export function searchLibrary(store,query=''){const words=query.toLocaleLowerCase().split(/\s+/).filter(Boolean);return store.entries('library_entries').filter(entry=>words.every(word=>JSON.stringify([entry.name,entry.tags,entry.source?.content]).toLocaleLowerCase().includes(word)));}
+export function retrieveLibrary(store,query,limit=3){
+  const normalize=value=>String(value).toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+  const stop=new Set('crea crear genera generar explica explicar video minutos minuto segundos para sobre con una unos unas del las los que como este esta the and for from'.split(' '));
+  const terms=[...new Set((normalize(query).match(/[\p{L}\p{N}]+/gu)||[]).filter(term=>term.length>=3&&!stop.has(term)))];
+  if(!terms.length)return [];
+  const matches=[];
+  for(const entry of store.entries('library_entries')){
+    if(entry.kind!=='source')continue;
+    const chunks=entry.source.content.match(/[\s\S]{1,800}/g)||[],name=normalize([entry.name,...entry.tags].join(' '));
+    const ranked=chunks.map((text,index)=>({text,index,score:terms.reduce((score,term)=>score+(normalize(text).includes(term)?2:0)+(name.includes(term)?1:0),0)})).filter(item=>item.score>0).sort((a,b)=>b.score-a.score||a.index-b.index);
+    if(ranked.length)matches.push({libraryId:entry.id,name:entry.source.name,content:ranked.slice(0,3).sort((a,b)=>a.index-b.index).map(item=>item.text).join('\n[…]\n'),score:ranked[0].score});
+  }
+  return matches.sort((a,b)=>b.score-a.score).slice(0,limit).map(({score,...item})=>item);
+}

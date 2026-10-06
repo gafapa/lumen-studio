@@ -1,0 +1,15 @@
+node_modules/
+.tools/
+.data/
+dist/
+releases/
+test-results/
+playwright-report/
+*.log
+.env
+*.traineddata
+.claude/
+skills/vendor/hyperframes/
+skills/vendor/remotion/
+.shots-tmp*.mjs
+.probe*.mjs
